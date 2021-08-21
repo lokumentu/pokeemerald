@@ -191,7 +191,7 @@
     REG_IE |= flags;                                            \
     REG_IME = imeTemp;                                          \
 }                                                               \
-// from pokeemerald
+// from pokemaragda
 // Maximum amount of data we will transfer in one operation
 #define MAX_DMA_BLOCK_SIZE 0x1000
 

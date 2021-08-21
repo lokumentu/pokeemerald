@@ -18,7 +18,7 @@ Fixes are written in the `diff` format. If you've used Git before, this should l
 
 ## Scrolling through items in the bag causes the image to flicker
 
-**Fix:** Add the following function to [src/item_menu_icons.c](https://github.com/pret/pokeemerald/blob/master/src/item_menu_icons.c):
+**Fix:** Add the following function to [src/item_menu_icons.c](master/src/item_menu_icons.c):
 ```diff
 +void HideBagItemIconSprite(u8 id)
 +{
@@ -31,14 +31,14 @@ Fixes are written in the `diff` format. If you've used Git before, this should l
 
 ```
 
-and its corresponding declaration in [include/item_menu_icons.h](https://github.com/pret/pokeemerald/blob/master/include/item_menu_icons.h):
+and its corresponding declaration in [include/item_menu_icons.h](master/include/item_menu_icons.h):
 
 ```diff
 +void HideBagItemIconSprite(u8 id);
 
 ```
 
-Then edit `BagMenu_MoveCursorCallback` in [src/item_menu.c](https://github.com/pret/pokeemerald/blob/master/src/item_menu.c):
+Then edit `BagMenu_MoveCursorCallback` in [src/item_menu.c](master/src/item_menu.c):
 
 ```diff
 	...
