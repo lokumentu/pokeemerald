@@ -1,9 +1,9 @@
 {
-  "id": "MAP_ROUTE123_BERRY_MASTERS_HOUSE",
+  "id": "MAP_RUTA123_BERRY_MASTERS_HOUSE",
   "name": "Route123_BerryMastersHouse",
   "layout": "LAYOUT_HOUSE2",
   "music": "MUS_RUSTBORO",
-  "region_map_section": "MAPSEC_ROUTE_123",
+  "region_map_section": "MAPSEC_RUTA_123",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -46,14 +46,14 @@
       "x": 3,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE123",
+      "dest_map": "MAP_RUTA123",
       "dest_warp_id": 0
     },
     {
       "x": 4,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE123",
+      "dest_map": "MAP_RUTA123",
       "dest_warp_id": 0
     }
   ],

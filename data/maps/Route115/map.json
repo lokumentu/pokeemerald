@@ -1,12 +1,12 @@
 {
-  "id": "MAP_ROUTE115",
+  "id": "MAP_RUTA115",
   "name": "Route115",
-  "layout": "LAYOUT_ROUTE115",
-  "music": "MUS_ROUTE104",
-  "region_map_section": "MAPSEC_ROUTE_115",
+  "layout": "LAYOUT_RUTA115",
+  "music": "MUS_RUTA104",
+  "region_map_section": "MAPSEC_RUTA_115",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_RUTA",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -21,7 +21,7 @@
     {
       "direction": "right",
       "offset": -40,
-      "map": "MAP_ROUTE114"
+      "map": "MAP_RUTA114"
     }
   ],
   "object_events": [
@@ -73,7 +73,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_115_KELPSY_1",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_115_KELPSY_1",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -86,7 +86,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_115_KELPSY_2",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_115_KELPSY_2",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -99,7 +99,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_115_KELPSY_3",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_115_KELPSY_3",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -153,7 +153,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route115_EventScript_ItemSuperPotion",
-      "flag": "FLAG_ITEM_ROUTE_115_SUPER_POTION"
+      "flag": "FLAG_ITEM_RUTA_115_SUPER_POTION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -166,7 +166,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route115_EventScript_ItemTM01",
-      "flag": "FLAG_ITEM_ROUTE_115_TM_01"
+      "flag": "FLAG_ITEM_RUTA_115_TM_01"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -179,7 +179,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route115_EventScript_ItemIron",
-      "flag": "FLAG_ITEM_ROUTE_115_IRON"
+      "flag": "FLAG_ITEM_RUTA_115_IRON"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -190,7 +190,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_115_BLUK_1",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_115_BLUK_1",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -203,7 +203,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_115_BLUK_2",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_115_BLUK_2",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -231,7 +231,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route115_EventScript_ItemGreatBall",
-      "flag": "FLAG_ITEM_ROUTE_115_GREAT_BALL"
+      "flag": "FLAG_ITEM_RUTA_115_GREAT_BALL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_RUNNING_TRIATHLETE_F",
@@ -309,7 +309,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route115_EventScript_ItemPPUp",
-      "flag": "FLAG_ITEM_ROUTE_115_PP_UP"
+      "flag": "FLAG_ITEM_RUTA_115_PP_UP"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -322,7 +322,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route115_EventScript_ItemHealPowder",
-      "flag": "FLAG_ITEM_ROUTE_115_HEAL_POWDER"
+      "flag": "FLAG_ITEM_RUTA_115_HEAL_POWDER"
     }
   ],
   "warp_events": [
@@ -449,7 +449,7 @@
       "y": 49,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_115_HEART_SCALE"
+      "flag": "FLAG_HIDDEN_ITEM_RUTA_115_HEART_SCALE"
     }
   ]
 }

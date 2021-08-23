@@ -1,9 +1,9 @@
 {
-  "id": "MAP_ROUTE121_SAFARI_ZONE_ENTRANCE",
+  "id": "MAP_RUTA121_SAFARI_ZONE_ENTRANCE",
   "name": "Route121_SafariZoneEntrance",
-  "layout": "LAYOUT_ROUTE121_SAFARI_ZONE_ENTRANCE",
+  "layout": "LAYOUT_RUTA121_SAFARI_ZONE_ENTRANCE",
   "music": "MUS_FORTREE",
-  "region_map_section": "MAPSEC_ROUTE_121",
+  "region_map_section": "MAPSEC_RUTA_121",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -73,14 +73,14 @@
       "x": 14,
       "y": 13,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE121",
+      "dest_map": "MAP_RUTA121",
       "dest_warp_id": 0
     },
     {
       "x": 15,
       "y": 13,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE121",
+      "dest_map": "MAP_RUTA121",
       "dest_warp_id": 0
     }
   ],

@@ -1003,7 +1003,7 @@ bool32 ObjectEventInteractionWaterBerryTree(void)
     case BERRY_STAGE_PLANTED:
         tree->watered1 = TRUE;
         break;
-    case BERRY_STAGE_SPROUTED:
+    case BERRY_STAGE_SPRUTAD:
         tree->watered2 = TRUE;
         break;
     case BERRY_STAGE_TALLER:
@@ -1055,7 +1055,7 @@ static bool32 BerryTreeGrow(struct BerryTree *tree)
     case BERRY_STAGE_FLOWERING:
         tree->berryYield = CalcBerryYield(tree);
     case BERRY_STAGE_PLANTED:
-    case BERRY_STAGE_SPROUTED:
+    case BERRY_STAGE_SPRUTAD:
     case BERRY_STAGE_TALLER:
         tree->stage++;
         break;
@@ -1065,7 +1065,7 @@ static bool32 BerryTreeGrow(struct BerryTree *tree)
         tree->watered3 = 0;
         tree->watered4 = 0;
         tree->berryYield = 0;
-        tree->stage = BERRY_STAGE_SPROUTED;
+        tree->stage = BERRY_STAGE_SPRUTAD;
         if (++tree->regrowthCount == 10)
             *tree = gBlankBerryTree;
         break;

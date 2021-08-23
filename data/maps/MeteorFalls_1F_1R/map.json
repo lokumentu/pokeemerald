@@ -150,14 +150,14 @@
       "x": 27,
       "y": 18,
       "elevation": 4,
-      "dest_map": "MAP_ROUTE114",
+      "dest_map": "MAP_RUTA114",
       "dest_warp_id": 0
     },
     {
       "x": 6,
       "y": 39,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE115",
+      "dest_map": "MAP_RUTA115",
       "dest_warp_id": 0
     },
     {

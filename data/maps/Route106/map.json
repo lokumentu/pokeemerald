@@ -1,12 +1,12 @@
 {
-  "id": "MAP_ROUTE106",
+  "id": "MAP_RUTA106",
   "name": "Route106",
-  "layout": "LAYOUT_ROUTE106",
-  "music": "MUS_ROUTE104",
-  "region_map_section": "MAPSEC_ROUTE_106",
+  "layout": "LAYOUT_RUTA106",
+  "music": "MUS_RUTA104",
+  "region_map_section": "MAPSEC_RUTA_106",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_RUTA",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -16,7 +16,7 @@
     {
       "direction": "up",
       "offset": 0,
-      "map": "MAP_ROUTE105"
+      "map": "MAP_RUTA105"
     },
     {
       "direction": "down",
@@ -88,7 +88,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route106_EventScript_ItemProtein",
-      "flag": "FLAG_ITEM_ROUTE_106_PROTEIN"
+      "flag": "FLAG_ITEM_RUTA_106_PROTEIN"
     }
   ],
   "warp_events": [
@@ -108,7 +108,7 @@
       "y": 11,
       "elevation": 3,
       "item": "ITEM_POKE_BALL",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_106_POKE_BALL"
+      "flag": "FLAG_HIDDEN_ITEM_RUTA_106_POKE_BALL"
     },
     {
       "type": "hidden_item",
@@ -116,7 +116,7 @@
       "y": 12,
       "elevation": 0,
       "item": "ITEM_STARDUST",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_106_STARDUST"
+      "flag": "FLAG_HIDDEN_ITEM_RUTA_106_STARDUST"
     },
     {
       "type": "hidden_item",
@@ -124,7 +124,7 @@
       "y": 15,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_106_HEART_SCALE"
+      "flag": "FLAG_HIDDEN_ITEM_RUTA_106_HEART_SCALE"
     },
     {
       "type": "sign",

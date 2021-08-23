@@ -178,7 +178,7 @@ enum
 {
     PUZZLE_NONE,
     PUZZLE_FORTREE_CITY_GYM,
-    PUZZLE_ROUTE110_TRICK_HOUSE_PUZZLE6,
+    PUZZLE_RUTA110_TRICK_HOUSE_PUZZLE6,
 };
 
 // structure
@@ -627,10 +627,10 @@ static s32 GetCurrentMapRotatingGatePuzzleType(void)
         return PUZZLE_FORTREE_CITY_GYM;
     }
 
-    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE110_TRICK_HOUSE_PUZZLE6) &&
-        gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE110_TRICK_HOUSE_PUZZLE6))
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(RUTA110_TRICK_HOUSE_PUZZLE6) &&
+        gSaveBlock1Ptr->location.mapNum == MAP_NUM(RUTA110_TRICK_HOUSE_PUZZLE6))
     {
-        return PUZZLE_ROUTE110_TRICK_HOUSE_PUZZLE6;
+        return PUZZLE_RUTA110_TRICK_HOUSE_PUZZLE6;
     }
 
     return PUZZLE_NONE;
@@ -688,7 +688,7 @@ static void RotatingGate_LoadPuzzleConfig(void)
         gRotatingGate_PuzzleCount =
             sizeof(sRotatingGate_FortreePuzzleConfig) / sizeof(struct RotatingGatePuzzle);
         break;
-    case PUZZLE_ROUTE110_TRICK_HOUSE_PUZZLE6:
+    case PUZZLE_RUTA110_TRICK_HOUSE_PUZZLE6:
         gRotatingGate_PuzzleConfig = sRotatingGate_TrickHousePuzzleConfig;
         gRotatingGate_PuzzleCount =
             sizeof(sRotatingGate_TrickHousePuzzleConfig) / sizeof(struct RotatingGatePuzzle);

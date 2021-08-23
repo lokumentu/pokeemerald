@@ -1,9 +1,9 @@
 {
-  "id": "MAP_ROUTE119_WEATHER_INSTITUTE_2F",
+  "id": "MAP_RUTA119_WEATHER_INSTITUTE_2F",
   "name": "Route119_WeatherInstitute_2F",
-  "layout": "LAYOUT_ROUTE119_WEATHER_INSTITUTE_2F",
+  "layout": "LAYOUT_RUTA119_WEATHER_INSTITUTE_2F",
   "music": "MUS_RUSTBORO",
-  "region_map_section": "MAPSEC_ROUTE_119",
+  "region_map_section": "MAPSEC_RUTA_119",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route119_WeatherInstitute_2F_EventScript_Grunt2",
-      "flag": "FLAG_HIDE_ROUTE_119_TEAM_AQUA"
+      "flag": "FLAG_HIDE_RUTA_119_TEAM_AQUA"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Route119_WeatherInstitute_2F_EventScript_Grunt3",
-      "flag": "FLAG_HIDE_ROUTE_119_TEAM_AQUA"
+      "flag": "FLAG_HIDE_RUTA_119_TEAM_AQUA"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route119_WeatherInstitute_2F_EventScript_Shelly",
-      "flag": "FLAG_HIDE_ROUTE_119_TEAM_AQUA"
+      "flag": "FLAG_HIDE_RUTA_119_TEAM_AQUA"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_4",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route119_WeatherInstitute_2F_EventScript_Grunt5",
-      "flag": "FLAG_HIDE_ROUTE_119_TEAM_AQUA"
+      "flag": "FLAG_HIDE_RUTA_119_TEAM_AQUA"
     }
   ],
   "warp_events": [
@@ -124,7 +124,7 @@
       "x": 17,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE119_WEATHER_INSTITUTE_1F",
+      "dest_map": "MAP_RUTA119_WEATHER_INSTITUTE_1F",
       "dest_warp_id": 2
     }
   ],

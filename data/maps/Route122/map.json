@@ -1,12 +1,12 @@
 {
-  "id": "MAP_ROUTE122",
+  "id": "MAP_RUTA122",
   "name": "Route122",
-  "layout": "LAYOUT_ROUTE122",
-  "music": "MUS_ROUTE122",
-  "region_map_section": "MAPSEC_ROUTE_122",
+  "layout": "LAYOUT_RUTA122",
+  "music": "MUS_RUTA122",
+  "region_map_section": "MAPSEC_RUTA_122",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_RUTA",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -16,12 +16,12 @@
     {
       "direction": "up",
       "offset": -20,
-      "map": "MAP_ROUTE121"
+      "map": "MAP_RUTA121"
     },
     {
       "direction": "down",
       "offset": -100,
-      "map": "MAP_ROUTE123"
+      "map": "MAP_RUTA123"
     }
   ],
   "object_events": [],

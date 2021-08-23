@@ -10,16 +10,16 @@ Route118_OnTransition:
 	call GabbyAndTy_EventScript_UpdateLocation
 	compare VAR_SHOULD_END_ABNORMAL_WEATHER, 1
 	call_if_eq AbnormalWeather_EventScript_HideMapNamePopup
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_118_EAST
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_118_EAST
 	call_if_eq AbnormalWeather_StartGroudonWeather
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_118_WEST
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_118_WEST
 	call_if_eq AbnormalWeather_StartGroudonWeather
 	end
 
 Route118_OnLoad:
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_118_EAST
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_118_EAST
 	call_if_eq AbnormalWeather_EventScript_PlaceTilesRoute118East
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_118_WEST
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_118_WEST
 	call_if_eq AbnormalWeather_EventScript_PlaceTilesRoute118West
 	end
 
@@ -109,7 +109,7 @@ Route118_EventScript_StevenTrigger::
 	call_if_eq Route118_EventScript_StevenExit1
 	compare VAR_0x8008, 2
 	call_if_eq Route118_EventScript_StevenExit2
-	setvar VAR_ROUTE118_STATE, 1
+	setvar VAR_RUTA118_STATE, 1
 	removeobject LOCALID_STEVEN
 	releaseall
 	end
@@ -304,10 +304,10 @@ Route118_Text_CanCrossRiversWithSurf:
 	.string "much!$"
 
 Route118_Text_RouteSignMauville:
-	.string "ROUTE 118\n"
+	.string "RUTA 118\n"
 	.string "{LEFT_ARROW} MAUVILLE CITY$"
 
 Route118_Text_RouteSign119:
-	.string "ROUTE 118\n"
-	.string "{UP_ARROW} ROUTE 119$"
+	.string "RUTA 118\n"
+	.string "{UP_ARROW} RUTA 119$"
 

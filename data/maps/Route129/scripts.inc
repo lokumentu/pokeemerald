@@ -5,9 +5,9 @@ Route129_MapScripts::
 	.byte 0
 
 Route129_OnLoad:
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_129_WEST
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_129_WEST
 	call_if_eq AbnormalWeather_EventScript_PlaceTilesRoute129West
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_129_EAST
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_129_EAST
 	call_if_eq AbnormalWeather_EventScript_PlaceTilesRoute129East
 	end
 
@@ -16,9 +16,9 @@ Route129_OnTransition:
 	call_if_eq AbnormalWeather_EventScript_HideMapNamePopup
 	compare VAR_SOOTOPOLIS_CITY_STATE, 4
 	call_if_ge Route129_EventScript_CheckSetAbnormalWeather
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_129_WEST
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_129_WEST
 	call_if_eq AbnormalWeather_StartKyogreWeather
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_129_EAST
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_129_EAST
 	call_if_eq AbnormalWeather_StartKyogreWeather
 	end
 

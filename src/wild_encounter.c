@@ -91,8 +91,8 @@ static bool8 CheckFeebas(void)
     u8 route119Section = 0;
     u16 waterTileNum;
 
-    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE119)
-     && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE119))
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(RUTA119)
+     && gSaveBlock1Ptr->location.mapNum == MAP_NUM(RUTA119))
     {
         GetXYCoordsOneStepInFrontOfPlayer(&x, &y);
         x -= 7;

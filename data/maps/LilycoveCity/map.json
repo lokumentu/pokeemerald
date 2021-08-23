@@ -16,12 +16,12 @@
     {
       "direction": "left",
       "offset": 10,
-      "map": "MAP_ROUTE121"
+      "map": "MAP_RUTA121"
     },
     {
       "direction": "right",
       "offset": -10,
-      "map": "MAP_ROUTE124"
+      "map": "MAP_RUTA124"
     }
   ],
   "object_events": [

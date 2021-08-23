@@ -11,7 +11,7 @@ Underwater_SealedChamber_OnDive:
 	goto Underwater_SealedChamber_EventScript_SurfaceSealedChamber
 
 Underwater_SealedChamber_EventScript_SurfaceRoute134::
-	setdivewarp MAP_ROUTE134, 255, 60, 31
+	setdivewarp MAP_RUTA134, 255, 60, 31
 	end
 
 Underwater_SealedChamber_EventScript_SurfaceSealedChamber::

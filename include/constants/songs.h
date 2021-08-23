@@ -279,7 +279,7 @@
 
 // Music
 #define MUS_LITTLEROOT_TEST         350 // MUS_TETSUJI
-#define MUS_GSC_ROUTE38             351 // MUS_FIELD13
+#define MUS_GSC_RUTA38             351 // MUS_FIELD13
 #define MUS_CAUGHT                  352 // MUS_KACHI22
 #define MUS_VICTORY_WILD            353 // MUS_KACHI2
 #define MUS_VICTORY_GYM_LEADER      354 // MUS_KACHI3
@@ -287,9 +287,9 @@
 #define MUS_C_COMM_CENTER           356 // MUS_PCC
 #define MUS_GSC_PEWTER              357 // MUS_NIBI
 #define MUS_C_VS_LEGEND_BEAST       358 // MUS_SUIKUN
-#define MUS_ROUTE101                359 // MUS_DOORO1
-#define MUS_ROUTE110                360 // MUS_DOORO_X1
-#define MUS_ROUTE120                361 // MUS_DOORO_X3
+#define MUS_RUTA101                359 // MUS_DOORO1
+#define MUS_RUTA110                360 // MUS_DOORO_X1
+#define MUS_RUTA120                361 // MUS_DOORO_X3
 #define MUS_PETALBURG               362 // MUS_MACHI_S2
 #define MUS_OLDALE                  363 // MUS_MACHI_S4
 #define MUS_GYM                     364 // MUS_GIM
@@ -302,7 +302,7 @@
 #define MUS_EVOLVED                 371 // MUS_FANFA5
 #define MUS_OBTAIN_TMHM             372 // MUS_ME_WAZA
 #define MUS_LILYCOVE_MUSEUM         373 // MUS_BIJYUTU
-#define MUS_ROUTE122                374 // MUS_DOORO_X4
+#define MUS_RUTA122                374 // MUS_DOORO_X4
 #define MUS_OCEANIC_MUSEUM          375 // MUS_FUNE_KAN
 #define MUS_EVOLUTION_INTRO         376 // MUS_ME_SHINKA
 #define MUS_EVOLUTION               377 // MUS_SHINKA
@@ -329,15 +329,15 @@
 #define MUS_VERDANTURF              398 // MUS_GOMACHI0
 #define MUS_RUSTBORO                399 // MUS_GOTOWN
 #define MUS_POKE_CENTER             400 // MUS_POKECEN
-#define MUS_ROUTE104                401 // MUS_NEXTROAD
-#define MUS_ROUTE119                402 // MUS_GRANROAD
+#define MUS_RUTA104                401 // MUS_NEXTROAD
+#define MUS_RUTA119                402 // MUS_GRANROAD
 #define MUS_CYCLING                 403 // MUS_CYCLING
 #define MUS_POKE_MART               404 // MUS_FRIENDLY
 #define MUS_LITTLEROOT              405 // MUS_MISHIRO
 #define MUS_MT_CHIMNEY              406 // MUS_TOZAN
 #define MUS_ENCOUNTER_FEMALE        407 // MUS_GIRLEYE
 #define MUS_LILYCOVE                408 // MUS_MINAMO
-#define MUS_ROUTE111                409 // MUS_ASHROAD
+#define MUS_RUTA111                409 // MUS_ASHROAD
 #define MUS_HELP                    410 // MUS_EVENT0
 #define MUS_UNDERWATER              411 // MUS_DEEPDEEP
 #define MUS_VICTORY_TRAINER         412 // MUS_KACHI1
@@ -346,7 +346,7 @@
 #define MUS_ENCOUNTER_MAY           415 // MUS_GIRL_SUP
 #define MUS_ENCOUNTER_INTENSE       416 // MUS_HAGESHII
 #define MUS_ENCOUNTER_COOL          417 // MUS_KAKKOII
-#define MUS_ROUTE113                418 // MUS_KAZANBAI
+#define MUS_RUTA113                418 // MUS_KAZANBAI
 #define MUS_ENCOUNTER_AQUA          419 // MUS_AQA_0
 #define MUS_FOLLOW_ME               420 // MUS_TSURETEK
 #define MUS_ENCOUNTER_BRENDAN       421 // MUS_BOY_SUP
@@ -432,10 +432,10 @@
 #define MUS_RG_MT_MOON              500 // MUS_RG_OTSUKIMI
 #define MUS_RG_POKE_MANSION         501 // MUS_RG_POKEYASHI
 #define MUS_RG_CREDITS              502 // MUS_RG_ENDING
-#define MUS_RG_ROUTE1               503 // MUS_RG_LOAD01
-#define MUS_RG_ROUTE24              504 // MUS_RG_OPENING
-#define MUS_RG_ROUTE3               505 // MUS_RG_LOAD02
-#define MUS_RG_ROUTE11              506 // MUS_RG_LOAD03
+#define MUS_RG_RUTA1               503 // MUS_RG_LOAD01
+#define MUS_RG_RUTA24              504 // MUS_RG_OPENING
+#define MUS_RG_RUTA3               505 // MUS_RG_LOAD02
+#define MUS_RG_RUTA11              506 // MUS_RG_LOAD03
 #define MUS_RG_VICTORY_ROAD         507 // MUS_RG_CHAMP_R
 #define MUS_RG_VS_GYM_LEADER        508 // MUS_RG_VS_GYM
 #define MUS_RG_VS_TRAINER           509 // MUS_RG_VS_TORE
@@ -474,7 +474,7 @@
 #define MUS_RG_BERRY_PICK           542 // MUS_RG_KINOMIKUI
 #define MUS_RG_SEVII_CAVE           543 // MUS_RG_NANADUNGEON (Identical to MUS_RG_MT_MOON)
 #define MUS_RG_TEACHY_TV_SHOW       544 // MUS_RG_OSHIE_TV (Identical to MUS_RG_FOLLOW_ME)
-#define MUS_RG_SEVII_ROUTE          545 // MUS_RG_NANASHIMA
+#define MUS_RG_SEVII_RUTA          545 // MUS_RG_NANASHIMA
 #define MUS_RG_SEVII_DUNGEON        546 // MUS_RG_NANAISEKI (Identical to MUS_RG_VIRIDIAN_FOREST)
 #define MUS_RG_SEVII_123            547 // MUS_RG_NANA123 (Identical to MUS_RG_PEWTER)
 #define MUS_RG_SEVII_45             548 // MUS_RG_NANA45
@@ -541,7 +541,7 @@
 #define PH_NURSE_HELD               608
 #define PH_NURSE_SOLO               609
 
-#define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
+#define MUS_RUTA118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
 #define MUS_NONE                    0xFFFF
 

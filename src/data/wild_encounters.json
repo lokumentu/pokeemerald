@@ -36,7 +36,7 @@
       ],
       "encounters": [
         {
-          "map": "MAP_ROUTE101",
+          "map": "MAP_RUTA101",
           "base_label": "gRoute101",
           "land_mons": {
             "encounter_rate": 20,
@@ -105,7 +105,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE102",
+          "map": "MAP_RUTA102",
           "base_label": "gRoute102",
           "land_mons": {
             "encounter_rate": 20,
@@ -259,7 +259,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE103",
+          "map": "MAP_RUTA103",
           "base_label": "gRoute103",
           "land_mons": {
             "encounter_rate": 20,
@@ -413,7 +413,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE104",
+          "map": "MAP_RUTA104",
           "base_label": "gRoute104",
           "land_mons": {
             "encounter_rate": 20,
@@ -567,7 +567,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE105",
+          "map": "MAP_RUTA105",
           "base_label": "gRoute105",
           "water_mons": {
             "encounter_rate": 4,
@@ -656,7 +656,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE110",
+          "map": "MAP_RUTA110",
           "base_label": "gRoute110",
           "land_mons": {
             "encounter_rate": 20,
@@ -810,7 +810,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE111",
+          "map": "MAP_RUTA111",
           "base_label": "gRoute111",
           "land_mons": {
             "encounter_rate": 10,
@@ -994,7 +994,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE112",
+          "map": "MAP_RUTA112",
           "base_label": "gRoute112",
           "land_mons": {
             "encounter_rate": 20,
@@ -1063,7 +1063,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE113",
+          "map": "MAP_RUTA113",
           "base_label": "gRoute113",
           "land_mons": {
             "encounter_rate": 20,
@@ -1132,7 +1132,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE114",
+          "map": "MAP_RUTA114",
           "base_label": "gRoute114",
           "land_mons": {
             "encounter_rate": 20,
@@ -1316,7 +1316,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE116",
+          "map": "MAP_RUTA116",
           "base_label": "gRoute116",
           "land_mons": {
             "encounter_rate": 20,
@@ -1385,7 +1385,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE117",
+          "map": "MAP_RUTA117",
           "base_label": "gRoute117",
           "land_mons": {
             "encounter_rate": 20,
@@ -1539,7 +1539,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE118",
+          "map": "MAP_RUTA118",
           "base_label": "gRoute118",
           "land_mons": {
             "encounter_rate": 20,
@@ -1693,7 +1693,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE124",
+          "map": "MAP_RUTA124",
           "base_label": "gRoute124",
           "water_mons": {
             "encounter_rate": 4,
@@ -2265,7 +2265,7 @@
           }
         },
         {
-          "map": "MAP_UNDERWATER_ROUTE126",
+          "map": "MAP_UNDERWATER_RUTA126",
           "base_label": "gUnderwater_Route126",
           "water_mons": {
             "encounter_rate": 4,
@@ -2779,7 +2779,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE106",
+          "map": "MAP_RUTA106",
           "base_label": "gRoute106",
           "water_mons": {
             "encounter_rate": 4,
@@ -2868,7 +2868,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE107",
+          "map": "MAP_RUTA107",
           "base_label": "gRoute107",
           "water_mons": {
             "encounter_rate": 4,
@@ -2957,7 +2957,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE108",
+          "map": "MAP_RUTA108",
           "base_label": "gRoute108",
           "water_mons": {
             "encounter_rate": 4,
@@ -3046,7 +3046,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE109",
+          "map": "MAP_RUTA109",
           "base_label": "gRoute109",
           "water_mons": {
             "encounter_rate": 4,
@@ -3135,7 +3135,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE115",
+          "map": "MAP_RUTA115",
           "base_label": "gRoute115",
           "land_mons": {
             "encounter_rate": 20,
@@ -3358,7 +3358,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE119",
+          "map": "MAP_RUTA119",
           "base_label": "gRoute119",
           "land_mons": {
             "encounter_rate": 15,
@@ -3512,7 +3512,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE120",
+          "map": "MAP_RUTA120",
           "base_label": "gRoute120",
           "land_mons": {
             "encounter_rate": 20,
@@ -3666,7 +3666,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE121",
+          "map": "MAP_RUTA121",
           "base_label": "gRoute121",
           "land_mons": {
             "encounter_rate": 20,
@@ -3820,7 +3820,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE122",
+          "map": "MAP_RUTA122",
           "base_label": "gRoute122",
           "water_mons": {
             "encounter_rate": 4,
@@ -3909,7 +3909,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE123",
+          "map": "MAP_RUTA123",
           "base_label": "gRoute123",
           "land_mons": {
             "encounter_rate": 20,
@@ -4615,7 +4615,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE125",
+          "map": "MAP_RUTA125",
           "base_label": "gRoute125",
           "water_mons": {
             "encounter_rate": 4,
@@ -4704,7 +4704,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE126",
+          "map": "MAP_RUTA126",
           "base_label": "gRoute126",
           "water_mons": {
             "encounter_rate": 4,
@@ -4793,7 +4793,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE127",
+          "map": "MAP_RUTA127",
           "base_label": "gRoute127",
           "water_mons": {
             "encounter_rate": 4,
@@ -4882,7 +4882,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE128",
+          "map": "MAP_RUTA128",
           "base_label": "gRoute128",
           "water_mons": {
             "encounter_rate": 4,
@@ -4971,7 +4971,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE129",
+          "map": "MAP_RUTA129",
           "base_label": "gRoute129",
           "water_mons": {
             "encounter_rate": 4,
@@ -5060,7 +5060,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE130",
+          "map": "MAP_RUTA130",
           "base_label": "gRoute130",
           "land_mons": {
             "encounter_rate": 20,
@@ -5214,7 +5214,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE131",
+          "map": "MAP_RUTA131",
           "base_label": "gRoute131",
           "water_mons": {
             "encounter_rate": 4,
@@ -5303,7 +5303,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE132",
+          "map": "MAP_RUTA132",
           "base_label": "gRoute132",
           "water_mons": {
             "encounter_rate": 4,
@@ -5392,7 +5392,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE133",
+          "map": "MAP_RUTA133",
           "base_label": "gRoute133",
           "water_mons": {
             "encounter_rate": 4,
@@ -5481,7 +5481,7 @@
           }
         },
         {
-          "map": "MAP_ROUTE134",
+          "map": "MAP_RUTA134",
           "base_label": "gRoute134",
           "water_mons": {
             "encounter_rate": 4,
@@ -9075,7 +9075,7 @@
           }
         },
         {
-          "map": "MAP_UNDERWATER_ROUTE124",
+          "map": "MAP_UNDERWATER_RUTA124",
           "base_label": "gUnderwater_Route124",
           "water_mons": {
             "encounter_rate": 4,

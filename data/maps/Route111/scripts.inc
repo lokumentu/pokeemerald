@@ -4,7 +4,7 @@
 .set LOCALID_VICKY, 4
 .set LOCALID_ROCK_SMASH_MAN, 46
 
-@ Note: LOCALID_ROUTE111_PLAYER_FALLING is a local id for this map used elsewhere. It's defined in event_objects.h
+@ Note: LOCALID_RUTA111_PLAYER_FALLING is a local id for this map used elsewhere. It's defined in event_objects.h
 
 Route111_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, Route111_OnLoad
@@ -93,17 +93,17 @@ Route111_EventScript_EndCheckSetSandstorm::
 	return
 
 Route111_EventScript_SetWinstratesNotDefeated::
-	clearflag FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE
-	setflag FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE
-	setflag FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE
-	setflag FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE
+	clearflag FLAG_HIDE_RUTA_111_VICTOR_WINSTRATE
+	setflag FLAG_HIDE_RUTA_111_VICTORIA_WINSTRATE
+	setflag FLAG_HIDE_RUTA_111_VIVI_WINSTRATE
+	setflag FLAG_HIDE_RUTA_111_VICKY_WINSTRATE
 	cleartrainerflag TRAINER_VICTOR
 	cleartrainerflag TRAINER_VICTORIA
 	cleartrainerflag TRAINER_VIVI
 	end
 
 Route111_EventScript_SetLayoutNoMirageTower::
-	setmaplayoutindex LAYOUT_ROUTE111_NO_MIRAGE_TOWER
+	setmaplayoutindex LAYOUT_RUTA111_NO_MIRAGE_TOWER
 	return
 
 Route111_EventScript_SetMirageTowerGone::
@@ -128,11 +128,11 @@ Route111_EventScript_MirageTowerDisappear::
 	waitstate
 	delay 24
 	playse SE_FALL
-	addobject LOCALID_ROUTE111_PLAYER_FALLING
+	addobject LOCALID_RUTA111_PLAYER_FALLING
 	special StartPlayerDescendMirageTower
 	waitstate
 	showobjectat OBJ_EVENT_ID_PLAYER, MAP_LITTLEROOT_TOWN
-	removeobject LOCALID_ROUTE111_PLAYER_FALLING
+	removeobject LOCALID_RUTA111_PLAYER_FALLING
 	delay 16
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 	delay 16
@@ -167,12 +167,12 @@ Route111_EventScript_Girl::
 	lock
 	faceplayer
 	dotimebasedevents
-	goto_if_set FLAG_DAILY_ROUTE_111_RECEIVED_BERRY, Route111_EventScript_ReceivedBerry
+	goto_if_set FLAG_DAILY_RUTA_111_RECEIVED_BERRY, Route111_EventScript_ReceivedBerry
 	msgbox Route111_Text_WateredPlantsEveryDayTakeBerry, MSGBOX_DEFAULT
 	giveitem ITEM_RAZZ_BERRY
 	compare VAR_RESULT, FALSE
 	goto_if_eq Common_EventScript_ShowBagIsFull
-	setflag FLAG_DAILY_ROUTE_111_RECEIVED_BERRY
+	setflag FLAG_DAILY_RUTA_111_RECEIVED_BERRY
 	special GetPlayerBigGuyGirlString
 	msgbox Route111_Text_GoingToTryToMakeDifferentColorBerries, MSGBOX_DEFAULT
 	release
@@ -269,14 +269,14 @@ Route111_Movement_PushRightFromRoute:
 
 Route111_EventScript_SunTrigger::
 	setweather WEATHER_SUNNY
-	fadenewbgm MUS_ROUTE110
+	fadenewbgm MUS_RUTA110
 	doweather
 	setvar VAR_TEMP_3, 0
 	end
 
 Route111_EventScript_SandstormTrigger::
 	setweather WEATHER_SANDSTORM
-	fadenewbgm MUS_ROUTE111
+	fadenewbgm MUS_RUTA111
 	doweather
 	end
 
@@ -670,7 +670,7 @@ Route111_Text_WinstrateFamilyDestroyedMe:
 	.string "going… They destroyed me.$"
 
 Route111_Text_RouteSignMauville:
-	.string "ROUTE 111\n"
+	.string "RUTA 111\n"
 	.string "{DOWN_ARROW} MAUVILLE CITY$"
 
 Route111_Text_WinstrateHouseSign:
@@ -678,12 +678,12 @@ Route111_Text_WinstrateHouseSign:
 	.string "THE WINSTRATE'S HOUSE$"
 
 Route111_Text_RouteSign112:
-	.string "ROUTE 111\n"
-	.string "{LEFT_ARROW} ROUTE 112$"
+	.string "RUTA 111\n"
+	.string "{LEFT_ARROW} RUTA 112$"
 
 Route111_Text_RouteSign113:
-	.string "ROUTE 111\n"
-	.string "{LEFT_ARROW} ROUTE 113$"
+	.string "RUTA 111\n"
+	.string "{LEFT_ARROW} RUTA 113$"
 
 Route111_Text_OldLadysRestStopSign:
 	.string "OLD LADY'S REST STOP\n"
@@ -740,7 +740,7 @@ Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
 	.string "Oh, no!\p"
 	.string "My uncle in MAUVILLE told me to take\n"
 	.string "ROCK SMASH with me if I was going to\l"
-	.string "ROUTE 111!\p"
+	.string "RUTA 111!\p"
 	.string "My uncle? He lives across from\n"
 	.string "the bike shop in MAUVILLE.$"
 

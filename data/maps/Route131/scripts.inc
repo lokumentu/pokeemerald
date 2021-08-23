@@ -9,7 +9,7 @@ Route131_OnTransition:
 	end
 
 Route131_EventScript_SetLayout::
-	setmaplayoutindex LAYOUT_ROUTE131_SKY_PILLAR
+	setmaplayoutindex LAYOUT_RUTA131_SKY_PILLAR
 	return
 
 Route131_EventScript_CheckSetAbnormalWeather::

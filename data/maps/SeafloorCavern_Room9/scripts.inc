@@ -122,7 +122,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	applymovement VAR_0x8004, SeafloorCavern_Room9_Movement_ArchieExit
 	waitmovement 0
 	msgbox SeafloorCavern_Room9_Text_MaxieComeOnPlayer, MSGBOX_DEFAULT
-	setvar VAR_ROUTE128_STATE, 1
+	setvar VAR_RUTA128_STATE, 1
 	setvar VAR_SOOTOPOLIS_CITY_STATE, 1
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_STEVEN
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE
@@ -132,8 +132,8 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_KYOGRE
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
 	setflag FLAG_LEGENDARIES_IN_SOOTOPOLIS
-	clearflag FLAG_HIDE_ROUTE_128_ARCHIE
-	clearflag FLAG_HIDE_ROUTE_128_MAXIE
+	clearflag FLAG_HIDE_RUTA_128_ARCHIE
+	clearflag FLAG_HIDE_RUTA_128_MAXIE
 	setflag FLAG_SYS_WEATHER_CTRL
 	setflag FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN
 	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
@@ -145,7 +145,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_AQUA_GRUNTS
 	setflag FLAG_HIDE_MAP_NAME_POPUP
-	warp MAP_ROUTE128, 255, 38, 22
+	warp MAP_RUTA128, 255, 38, 22
 	waitstate
 	releaseall
 	end

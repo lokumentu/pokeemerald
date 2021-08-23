@@ -6,8 +6,8 @@ Route109_MapScripts::
 
 Route109_EventScript_StartDepartForDewford::
 	call EventScript_BackupMrBrineyLocation
-	setobjectpriority LOCALID_BRINEY_R109, MAP_ROUTE109, 0
-	setobjectpriority OBJ_EVENT_ID_PLAYER, MAP_ROUTE109, 0
+	setobjectpriority LOCALID_BRINEY_R109, MAP_RUTA109, 0
+	setobjectpriority OBJ_EVENT_ID_PLAYER, MAP_RUTA109, 0
 	applymovement LOCALID_BRINEY_R109, Route109_Movement_BrineyEnterBoat
 	waitmovement 0
 	removeobject LOCALID_BRINEY_R109
@@ -36,7 +36,7 @@ Route109_EventScript_EnterBoatWest::
 	end
 
 Route109_EventScript_DoSailToDewford::
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE109
+	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_RUTA109
 	call Common_EventScript_PlayBrineysBoatMusic
 	applymovement LOCALID_BOAT_R109, Route109_Movement_SailToDewford
 	applymovement OBJ_EVENT_ID_PLAYER, Route109_Movement_SailToDewford
@@ -54,12 +54,12 @@ Route109_EventScript_DoSailToDewford::
 	applymovement LOCALID_BRINEY_DEWFORD, Route109_Movement_BrineyExitBoat
 	waitmovement 0
 	clearflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
-	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
-	hideobjectat LOCALID_BOAT_R109, MAP_ROUTE109
+	setflag FLAG_HIDE_RUTA_109_MR_BRINEY_BOAT
+	hideobjectat LOCALID_BOAT_R109, MAP_RUTA109
 	msgbox DewfordTown_Text_BrineyLandedInDewford, MSGBOX_DEFAULT
 	closemessage
 	copyvar VAR_BRINEY_LOCATION, VAR_0x8008
-	resetobjectpriority OBJ_EVENT_ID_PLAYER, MAP_ROUTE109
+	resetobjectpriority OBJ_EVENT_ID_PLAYER, MAP_RUTA109
 	resetobjectpriority LOCALID_BRINEY_DEWFORD, MAP_DEWFORD_TOWN
 	copyobjectxytoperm LOCALID_BRINEY_DEWFORD
 	release

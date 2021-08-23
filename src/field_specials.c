@@ -274,7 +274,7 @@ u16 GetRecordedCyclingRoadResults(void) {
 }
 
 void UpdateCyclingRoadState(void) {
-    if (gLastUsedWarp.mapNum == MAP_NUM(ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE) && gLastUsedWarp.mapGroup == MAP_GROUP(ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE))
+    if (gLastUsedWarp.mapNum == MAP_NUM(RUTA110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE) && gLastUsedWarp.mapGroup == MAP_GROUP(RUTA110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE))
     {
         return;
     }
@@ -317,48 +317,48 @@ u8 GetSSTidalLocation(s8 *mapGroup, s8 *mapNum, s16 *x, s16 *y)
             return SS_TIDAL_LOCATION_SLATEPORT;
         case SS_TIDAL_HALFWAY_LILYCOVE:
         case SS_TIDAL_EXIT_CURRENTS_RIGHT:
-            return SS_TIDAL_LOCATION_ROUTE131;
+            return SS_TIDAL_LOCATION_RUTA131;
         case SS_TIDAL_LAND_LILYCOVE:
         case SS_TIDAL_BOARD_LILYCOVE:
             return SS_TIDAL_LOCATION_LILYCOVE;
         case SS_TIDAL_DEPART_LILYCOVE:
         case SS_TIDAL_EXIT_CURRENTS_LEFT:
-            return SS_TIDAL_LOCATION_ROUTE124;
+            return SS_TIDAL_LOCATION_RUTA124;
         case SS_TIDAL_DEPART_SLATEPORT:
             if (*varCruiseStepCount < 60)
             {
-                *mapNum = MAP_NUM(ROUTE134);
+                *mapNum = MAP_NUM(RUTA134);
                 *x = *varCruiseStepCount + 19;
             }
             else if (*varCruiseStepCount < 140)
             {
-                *mapNum = MAP_NUM(ROUTE133);
+                *mapNum = MAP_NUM(RUTA133);
                 *x = *varCruiseStepCount - 60;
             }
             else
             {
-                *mapNum = MAP_NUM(ROUTE132);
+                *mapNum = MAP_NUM(RUTA132);
                 *x = *varCruiseStepCount - 140;
             }
             break;
         case SS_TIDAL_HALFWAY_SLATEPORT:
             if (*varCruiseStepCount < 66)
             {
-                *mapNum = MAP_NUM(ROUTE132);
+                *mapNum = MAP_NUM(RUTA132);
                 *x = 65 - *varCruiseStepCount;
             }
             else if (*varCruiseStepCount < 146) {
-                *mapNum = MAP_NUM(ROUTE133);
+                *mapNum = MAP_NUM(RUTA133);
                 *x = 145 - *varCruiseStepCount;
             }
             else
             {
-                *mapNum = MAP_NUM(ROUTE134);
+                *mapNum = MAP_NUM(RUTA134);
                 *x = 224 - *varCruiseStepCount;
             }
             break;
     }
-    *mapGroup = MAP_GROUP(ROUTE132);
+    *mapGroup = MAP_GROUP(RUTA132);
     *y = 20;
     return SS_TIDAL_LOCATION_CURRENTS;
 }
@@ -371,8 +371,8 @@ bool32 ShouldDoWallyCall(void)
         {
             case MAP_TYPE_TOWN:
             case MAP_TYPE_CITY:
-            case MAP_TYPE_ROUTE:
-            case MAP_TYPE_OCEAN_ROUTE:
+            case MAP_TYPE_RUTA:
+            case MAP_TYPE_OCEAN_RUTA:
                 if (++(*GetVarPointer(VAR_WALLY_CALL_STEP_COUNTER)) < 250)
                 {
                     return FALSE;
@@ -398,8 +398,8 @@ bool32 ShouldDoScottFortreeCall(void)
         {
             case MAP_TYPE_TOWN:
             case MAP_TYPE_CITY:
-            case MAP_TYPE_ROUTE:
-            case MAP_TYPE_OCEAN_ROUTE:
+            case MAP_TYPE_RUTA:
+            case MAP_TYPE_OCEAN_RUTA:
                 if (++(*GetVarPointer(VAR_SCOTT_FORTREE_CALL_STEP_COUNTER)) < 10)
                 {
                     return FALSE;
@@ -425,8 +425,8 @@ bool32 ShouldDoScottBattleFrontierCall(void)
         {
             case MAP_TYPE_TOWN:
             case MAP_TYPE_CITY:
-            case MAP_TYPE_ROUTE:
-            case MAP_TYPE_OCEAN_ROUTE:
+            case MAP_TYPE_RUTA:
+            case MAP_TYPE_OCEAN_RUTA:
                 if (++(*GetVarPointer(VAR_SCOTT_BF_CALL_STEP_COUNTER)) < 10)
                 {
                     return FALSE;
@@ -452,8 +452,8 @@ bool32 ShouldDoRoxanneCall(void)
         {
             case MAP_TYPE_TOWN:
             case MAP_TYPE_CITY:
-            case MAP_TYPE_ROUTE:
-            case MAP_TYPE_OCEAN_ROUTE:
+            case MAP_TYPE_RUTA:
+            case MAP_TYPE_OCEAN_RUTA:
                 if (++(*GetVarPointer(VAR_ROXANNE_CALL_STEP_COUNTER)) < 250)
                 {
                     return FALSE;
@@ -479,8 +479,8 @@ bool32 ShouldDoRivalRayquazaCall(void)
         {
             case MAP_TYPE_TOWN:
             case MAP_TYPE_CITY:
-            case MAP_TYPE_ROUTE:
-            case MAP_TYPE_OCEAN_ROUTE:
+            case MAP_TYPE_RUTA:
+            case MAP_TYPE_OCEAN_RUTA:
                 if (++(*GetVarPointer(VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER)) < 250)
                 {
                     return FALSE;
@@ -962,7 +962,7 @@ void CableCarWarp(void)
 {
     if (gSpecialVar_0x8004 != 0)
     {
-        SetWarpDestination(MAP_GROUP(ROUTE112_CABLE_CAR_STATION), MAP_NUM(ROUTE112_CABLE_CAR_STATION), -1, 6, 4);
+        SetWarpDestination(MAP_GROUP(RUTA112_CABLE_CAR_STATION), MAP_NUM(RUTA112_CABLE_CAR_STATION), -1, 6, 4);
     }
     else
     {
@@ -1540,14 +1540,14 @@ static void StopCameraShake(u8 taskId)
 
 bool8 FoundBlackGlasses(void)
 {
-    return FlagGet(FLAG_HIDDEN_ITEM_ROUTE_116_BLACK_GLASSES);
+    return FlagGet(FLAG_HIDDEN_ITEM_RUTA_116_BLACK_GLASSES);
 }
 
 void SetRoute119Weather(void)
 {
     if (IsMapTypeOutdoors(GetLastUsedWarpMapType()) != TRUE)
     {
-        SetSav1Weather(WEATHER_ROUTE119_CYCLE);
+        SetSav1Weather(WEATHER_RUTA119_CYCLE);
     }
 }
 
@@ -1555,7 +1555,7 @@ void SetRoute123Weather(void)
 {
     if (IsMapTypeOutdoors(GetLastUsedWarpMapType()) != TRUE)
     {
-        SetSav1Weather(WEATHER_ROUTE123_CYCLE);
+        SetSav1Weather(WEATHER_RUTA123_CYCLE);
     }
 }
 
@@ -3566,22 +3566,22 @@ void CreateAbnormalWeatherEvent(void)
 bool32 GetAbnormalWeatherMapNameAndType(void)
 {
     static const u8 sAbnormalWeatherMapNumbers[] = {
-        MAP_NUM(ROUTE114),
-        MAP_NUM(ROUTE114),
-        MAP_NUM(ROUTE115),
-        MAP_NUM(ROUTE115),
-        MAP_NUM(ROUTE116),
-        MAP_NUM(ROUTE116),
-        MAP_NUM(ROUTE118),
-        MAP_NUM(ROUTE118),
-        MAP_NUM(ROUTE105),
-        MAP_NUM(ROUTE105),
-        MAP_NUM(ROUTE125),
-        MAP_NUM(ROUTE125),
-        MAP_NUM(ROUTE127),
-        MAP_NUM(ROUTE127),
-        MAP_NUM(ROUTE129),
-        MAP_NUM(ROUTE129)
+        MAP_NUM(RUTA114),
+        MAP_NUM(RUTA114),
+        MAP_NUM(RUTA115),
+        MAP_NUM(RUTA115),
+        MAP_NUM(RUTA116),
+        MAP_NUM(RUTA116),
+        MAP_NUM(RUTA118),
+        MAP_NUM(RUTA118),
+        MAP_NUM(RUTA105),
+        MAP_NUM(RUTA105),
+        MAP_NUM(RUTA125),
+        MAP_NUM(RUTA125),
+        MAP_NUM(RUTA127),
+        MAP_NUM(RUTA127),
+        MAP_NUM(RUTA129),
+        MAP_NUM(RUTA129)
     };
 
     u16 abnormalWeather = VarGet(VAR_ABNORMAL_WEATHER_LOCATION);
@@ -3598,22 +3598,22 @@ bool8 AbnormalWeatherHasExpired(void)
 {
     // Duplicate array.
     static const u8 sAbnormalWeatherMapNumbers[] = {
-        MAP_NUM(ROUTE114),
-        MAP_NUM(ROUTE114),
-        MAP_NUM(ROUTE115),
-        MAP_NUM(ROUTE115),
-        MAP_NUM(ROUTE116),
-        MAP_NUM(ROUTE116),
-        MAP_NUM(ROUTE118),
-        MAP_NUM(ROUTE118),
-        MAP_NUM(ROUTE105),
-        MAP_NUM(ROUTE105),
-        MAP_NUM(ROUTE125),
-        MAP_NUM(ROUTE125),
-        MAP_NUM(ROUTE127),
-        MAP_NUM(ROUTE127),
-        MAP_NUM(ROUTE129),
-        MAP_NUM(ROUTE129)
+        MAP_NUM(RUTA114),
+        MAP_NUM(RUTA114),
+        MAP_NUM(RUTA115),
+        MAP_NUM(RUTA115),
+        MAP_NUM(RUTA116),
+        MAP_NUM(RUTA116),
+        MAP_NUM(RUTA118),
+        MAP_NUM(RUTA118),
+        MAP_NUM(RUTA105),
+        MAP_NUM(RUTA105),
+        MAP_NUM(RUTA125),
+        MAP_NUM(RUTA125),
+        MAP_NUM(RUTA127),
+        MAP_NUM(RUTA127),
+        MAP_NUM(RUTA129),
+        MAP_NUM(RUTA129)
     };
 
     u16 steps = VarGet(VAR_ABNORMAL_WEATHER_STEP_COUNTER);
@@ -3643,14 +3643,14 @@ bool8 AbnormalWeatherHasExpired(void)
             }
         }
 
-        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(UNDERWATER_ROUTE127))
+        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(UNDERWATER_RUTA127))
         {
             switch (gSaveBlock1Ptr->location.mapNum)
             {
-                case MAP_NUM(UNDERWATER_ROUTE127):
-                case MAP_NUM(UNDERWATER_ROUTE129):
-                case MAP_NUM(UNDERWATER_ROUTE105):
-                case MAP_NUM(UNDERWATER_ROUTE125):
+                case MAP_NUM(UNDERWATER_RUTA127):
+                case MAP_NUM(UNDERWATER_RUTA129):
+                case MAP_NUM(UNDERWATER_RUTA105):
+                case MAP_NUM(UNDERWATER_RUTA125):
                     VarSet(VAR_SHOULD_END_ABNORMAL_WEATHER, 1);
                     return FALSE;
                 default:

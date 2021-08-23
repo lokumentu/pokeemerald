@@ -1,9 +1,9 @@
 {
-  "id": "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE",
+  "id": "MAP_RUTA110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE",
   "name": "Route110_SeasideCyclingRoadSouthEntrance",
-  "layout": "LAYOUT_ROUTE110_SEASIDE_CYCLING_ROAD_ENTRANCE",
+  "layout": "LAYOUT_RUTA110_SEASIDE_CYCLING_ROAD_ENTRANCE",
   "music": "MUS_SLATEPORT",
-  "region_map_section": "MAPSEC_ROUTE_110",
+  "region_map_section": "MAPSEC_RUTA_110",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -33,28 +33,28 @@
       "x": 1,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE110",
+      "dest_map": "MAP_RUTA110",
       "dest_warp_id": 2
     },
     {
       "x": 2,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE110",
+      "dest_map": "MAP_RUTA110",
       "dest_warp_id": 2
     },
     {
       "x": 12,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE110",
+      "dest_map": "MAP_RUTA110",
       "dest_warp_id": 3
     },
     {
       "x": 13,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE110",
+      "dest_map": "MAP_RUTA110",
       "dest_warp_id": 3
     }
   ],

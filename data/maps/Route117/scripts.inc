@@ -201,11 +201,11 @@ Route117_Text_AirIsTastyHere:
 	.string "The air is tasty here!$"
 
 Route117_Text_RouteSignVerdanturf:
-	.string "ROUTE 117\n"
+	.string "RUTA 117\n"
 	.string "{LEFT_ARROW} VERDANTURF TOWN$"
 
 Route117_Text_RouteSignMauville:
-	.string "ROUTE 117\n"
+	.string "RUTA 117\n"
 	.string "{RIGHT_ARROW} MAUVILLE CITY$"
 
 Route117_Text_DayCareSign:

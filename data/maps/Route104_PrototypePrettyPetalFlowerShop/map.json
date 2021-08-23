@@ -1,9 +1,9 @@
 {
-  "id": "MAP_ROUTE104_PROTOTYPE_PRETTY_PETAL_FLOWER_SHOP",
+  "id": "MAP_RUTA104_PROTOTYPE_PRETTY_PETAL_FLOWER_SHOP",
   "name": "Route104_PrototypePrettyPetalFlowerShop",
-  "layout": "LAYOUT_ROUTE104_PRETTY_PETAL_FLOWER_SHOP",
-  "music": "MUS_ROUTE104",
-  "region_map_section": "MAPSEC_ROUTE_104",
+  "layout": "LAYOUT_RUTA104_PRETTY_PETAL_FLOWER_SHOP",
+  "music": "MUS_RUTA104",
+  "region_map_section": "MAPSEC_RUTA_104",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

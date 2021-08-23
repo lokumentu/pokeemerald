@@ -548,7 +548,7 @@ static void UpdateMapSecInfoWindow(struct Pokenav5Struct_2 *state)
         CopyWindowToVram(state->infoWindowId, 3);
         SetCityZoomTextInvisibility(TRUE);
         break;
-    case MAPSECTYPE_ROUTE:
+    case MAPSECTYPE_RUTA:
     case MAPSECTYPE_BATTLE_FRONTIER:
         FillWindowPixelBuffer(state->infoWindowId, PIXEL_FILL(1));
         PutWindowTilemap(state->infoWindowId);

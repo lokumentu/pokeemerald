@@ -16,17 +16,17 @@
     {
       "direction": "up",
       "offset": 0,
-      "map": "MAP_ROUTE110"
+      "map": "MAP_RUTA110"
     },
     {
       "direction": "down",
       "offset": 0,
-      "map": "MAP_ROUTE109"
+      "map": "MAP_RUTA109"
     },
     {
       "direction": "right",
       "offset": 0,
-      "map": "MAP_ROUTE134"
+      "map": "MAP_RUTA134"
     }
   ],
   "object_events": [

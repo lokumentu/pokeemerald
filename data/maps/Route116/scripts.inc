@@ -11,9 +11,9 @@ Route116_OnTransition:
 	call_if_set FLAG_RECOVERED_DEVON_GOODS, Route116_EventScript_SetWandasBoyfriendPos
 	compare VAR_SHOULD_END_ABNORMAL_WEATHER, 1
 	call_if_eq AbnormalWeather_EventScript_HideMapNamePopup
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_116_NORTH
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_116_NORTH
 	call_if_eq AbnormalWeather_StartGroudonWeather
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_116_SOUTH
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_116_SOUTH
 	call_if_eq AbnormalWeather_StartGroudonWeather
 	end
 
@@ -22,9 +22,9 @@ Route116_EventScript_SetWandasBoyfriendPos::
 	return
 
 Route116_OnLoad:
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_116_NORTH
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_116_NORTH
 	call_if_eq AbnormalWeather_EventScript_PlaceTilesRoute116North
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_116_SOUTH
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_116_SOUTH
 	call_if_eq AbnormalWeather_EventScript_PlaceTilesRoute116South
 	end
 
@@ -148,7 +148,7 @@ Route116_EventScript_Briney::
 	lock
 	faceplayer
 	msgbox Route116_Text_ScoundrelMadeOffWithPeeko, MSGBOX_DEFAULT
-	setvar VAR_ROUTE116_STATE, 2
+	setvar VAR_RUTA116_STATE, 2
 	release
 	end
 
@@ -158,7 +158,7 @@ Route116_EventScript_BrineyTrigger::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFastestLeft
 	waitmovement 0
 	msgbox Route116_Text_ScoundrelMadeOffWithPeeko, MSGBOX_DEFAULT
-	setvar VAR_ROUTE116_STATE, 2
+	setvar VAR_RUTA116_STATE, 2
 	releaseall
 	end
 
@@ -464,7 +464,7 @@ Route116_Text_NotWhatImLookingFor:
 	.string "They're not what I'm looking for…$"
 
 Route116_Text_RouteSignRustboro:
-	.string "ROUTE 116\n"
+	.string "RUTA 116\n"
 	.string "{LEFT_ARROW} RUSTBORO CITY$"
 
 Route116_Text_RusturfTunnelSign:

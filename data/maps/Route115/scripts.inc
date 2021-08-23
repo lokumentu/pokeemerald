@@ -5,18 +5,18 @@ Route115_MapScripts::
 	.byte 0
 
 Route115_OnLoad:
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_115_WEST
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_115_WEST
 	call_if_eq AbnormalWeather_EventScript_PlaceTilesRoute115West
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_115_EAST
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_115_EAST
 	call_if_eq AbnormalWeather_EventScript_PlaceTilesRoute115East
 	end
 
 Route115_OnTransition:
 	compare VAR_SHOULD_END_ABNORMAL_WEATHER, 1
 	call_if_eq AbnormalWeather_EventScript_HideMapNamePopup
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_115_WEST
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_115_WEST
 	call_if_eq AbnormalWeather_StartGroudonWeather
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_115_EAST
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_115_EAST
 	call_if_eq AbnormalWeather_StartGroudonWeather
 	end
 
@@ -144,7 +144,7 @@ Route115_Text_NeverKnowWhenCavePokemonWillAppear:
 	.string "appear. It's full of suspense.$"
 
 Route115_Text_RouteSignRustboro:
-	.string "ROUTE 115\n"
+	.string "RUTA 115\n"
 	.string "{DOWN_ARROW} RUSTBORO CITY$"
 
 Route115_Text_MeteorFallsSign:

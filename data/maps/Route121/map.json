@@ -1,12 +1,12 @@
 {
-  "id": "MAP_ROUTE121",
+  "id": "MAP_RUTA121",
   "name": "Route121",
-  "layout": "LAYOUT_ROUTE121",
-  "music": "MUS_ROUTE120",
-  "region_map_section": "MAPSEC_ROUTE_121",
+  "layout": "LAYOUT_RUTA121",
+  "music": "MUS_RUTA120",
+  "region_map_section": "MAPSEC_RUTA_121",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_RUTA",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -16,12 +16,12 @@
     {
       "direction": "down",
       "offset": 20,
-      "map": "MAP_ROUTE122"
+      "map": "MAP_RUTA122"
     },
     {
       "direction": "left",
       "offset": -80,
-      "map": "MAP_ROUTE120"
+      "map": "MAP_RUTA120"
     },
     {
       "direction": "right",
@@ -52,7 +52,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_121_PERSIM",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_121_PERSIM",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -65,7 +65,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_121_ASPEAR",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_121_ASPEAR",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -78,7 +78,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_121_RAWST",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_121_RAWST",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -91,7 +91,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_121_CHESTO",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_121_CHESTO",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -104,7 +104,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_121_SOIL_1",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_121_SOIL_1",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -117,7 +117,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_121_NANAB_1",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_121_NANAB_1",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -130,7 +130,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_121_NANAB_2",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_121_NANAB_2",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -143,7 +143,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_121_SOIL_2",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_121_SOIL_2",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -184,7 +184,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS"
+      "flag": "FLAG_HIDE_RUTA_121_TEAM_AQUA_GRUNTS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
@@ -197,7 +197,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS"
+      "flag": "FLAG_HIDE_RUTA_121_TEAM_AQUA_GRUNTS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
@@ -210,7 +210,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS"
+      "flag": "FLAG_HIDE_RUTA_121_TEAM_AQUA_GRUNTS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
@@ -301,7 +301,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route121_EventScript_ItemCarbos",
-      "flag": "FLAG_ITEM_ROUTE_121_CARBOS"
+      "flag": "FLAG_ITEM_RUTA_121_CARBOS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
@@ -392,7 +392,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route121_EventScript_ItemRevive",
-      "flag": "FLAG_ITEM_ROUTE_121_REVIVE"
+      "flag": "FLAG_ITEM_RUTA_121_REVIVE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -405,7 +405,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route121_EventScript_ItemZinc",
-      "flag": "FLAG_ITEM_ROUTE_121_ZINC"
+      "flag": "FLAG_ITEM_RUTA_121_ZINC"
     }
   ],
   "warp_events": [
@@ -413,7 +413,7 @@
       "x": 37,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE121_SAFARI_ZONE_ENTRANCE",
+      "dest_map": "MAP_RUTA121_SAFARI_ZONE_ENTRANCE",
       "dest_warp_id": 2
     }
   ],
@@ -423,7 +423,7 @@
       "x": 25,
       "y": 5,
       "elevation": 3,
-      "var": "VAR_ROUTE121_STATE",
+      "var": "VAR_RUTA121_STATE",
       "var_value": "0",
       "script": "Route121_EventScript_AquaGruntsMoveOut"
     },
@@ -432,7 +432,7 @@
       "x": 25,
       "y": 6,
       "elevation": 3,
-      "var": "VAR_ROUTE121_STATE",
+      "var": "VAR_RUTA121_STATE",
       "var_value": "0",
       "script": "Route121_EventScript_AquaGruntsMoveOut"
     },
@@ -441,7 +441,7 @@
       "x": 25,
       "y": 7,
       "elevation": 3,
-      "var": "VAR_ROUTE121_STATE",
+      "var": "VAR_RUTA121_STATE",
       "var_value": "0",
       "script": "Route121_EventScript_AquaGruntsMoveOut"
     },
@@ -450,7 +450,7 @@
       "x": 25,
       "y": 8,
       "elevation": 3,
-      "var": "VAR_ROUTE121_STATE",
+      "var": "VAR_RUTA121_STATE",
       "var_value": "0",
       "script": "Route121_EventScript_AquaGruntsMoveOut"
     }
@@ -506,7 +506,7 @@
       "y": 10,
       "elevation": 3,
       "item": "ITEM_HP_UP",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_121_HP_UP"
+      "flag": "FLAG_HIDDEN_ITEM_RUTA_121_HP_UP"
     },
     {
       "type": "hidden_item",
@@ -514,7 +514,7 @@
       "y": 3,
       "elevation": 3,
       "item": "ITEM_NUGGET",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_121_NUGGET"
+      "flag": "FLAG_HIDDEN_ITEM_RUTA_121_NUGGET"
     },
     {
       "type": "hidden_item",
@@ -522,7 +522,7 @@
       "y": 5,
       "elevation": 3,
       "item": "ITEM_FULL_HEAL",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_121_FULL_HEAL"
+      "flag": "FLAG_HIDDEN_ITEM_RUTA_121_FULL_HEAL"
     },
     {
       "type": "hidden_item",
@@ -530,7 +530,7 @@
       "y": 8,
       "elevation": 3,
       "item": "ITEM_MAX_REVIVE",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_121_MAX_REVIVE"
+      "flag": "FLAG_HIDDEN_ITEM_RUTA_121_MAX_REVIVE"
     }
   ]
 }

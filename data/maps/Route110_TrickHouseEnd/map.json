@@ -1,9 +1,9 @@
 {
-  "id": "MAP_ROUTE110_TRICK_HOUSE_END",
+  "id": "MAP_RUTA110_TRICK_HOUSE_END",
   "name": "Route110_TrickHouseEnd",
-  "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_END",
+  "layout": "LAYOUT_RUTA110_TRICK_HOUSE_END",
   "music": "MUS_TRICK_HOUSE",
-  "region_map_section": "MAPSEC_ROUTE_110",
+  "region_map_section": "MAPSEC_RUTA_110",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -33,14 +33,14 @@
       "x": 10,
       "y": 1,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE1",
+      "dest_map": "MAP_RUTA110_TRICK_HOUSE_PUZZLE1",
       "dest_warp_id": 2
     },
     {
       "x": 2,
       "y": 1,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE110_TRICK_HOUSE_CORRIDOR",
+      "dest_map": "MAP_RUTA110_TRICK_HOUSE_CORRIDOR",
       "dest_warp_id": 0
     }
   ],

@@ -6,9 +6,9 @@ Route105_MapScripts::
 
 Route105_OnLoad:
 	call_if_unset FLAG_REGI_DOORS_OPENED, Route105_CloseRegiEntrance
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_105_NORTH
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_105_NORTH
 	call_if_eq AbnormalWeather_EventScript_PlaceTilesRoute105North
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_105_SOUTH
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_105_SOUTH
 	call_if_eq AbnormalWeather_EventScript_PlaceTilesRoute105South
 	end
 
@@ -20,9 +20,9 @@ Route105_CloseRegiEntrance::
 Route105_OnTransition:
 	compare VAR_SHOULD_END_ABNORMAL_WEATHER, 1
 	call_if_eq AbnormalWeather_EventScript_HideMapNamePopup
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_105_NORTH
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_105_NORTH
 	call_if_eq AbnormalWeather_StartKyogreWeather
-	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_105_SOUTH
+	compare VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_RUTA_105_SOUTH
 	call_if_eq AbnormalWeather_StartKyogreWeather
 	end
 

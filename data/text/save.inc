@@ -1,33 +1,33 @@
 	.align 2
 gText_ConfirmSave::
-	.string "Would you like to save the game?$"
+	.string "Vols guardar la partida?$"
 
 gText_AlreadySavedFile::
-	.string "There is already a saved file.\n"
-	.string "Is it okay to overwrite it?$"
+	.string "Ja hi ha un fitxer de guardat.\n"
+	.string "Segur que vols sobreescriure'l?$"
 
 gText_SavingDontTurnOff::
-	.string "SAVING…\n"
-	.string "DON'T TURN OFF THE POWER.$"
+	.string "DESANT…\n"
+	.string "NO APAGUIS LA CONSOLA.$"
 
 gText_PlayerSavedGame::
-	.string "{PLAYER} saved the game.$"
+	.string "Has guardat la partida.$"
 
 gText_DifferentSaveFile::
-	.string "WARNING!\p"
-	.string "There is a different game file that\n"
-	.string "is already saved.\p"
-	.string "If you save now, the other file's\n"
-	.string "adventure, including items and\l"
-	.string "POKéMON, will be entirely lost.\p"
-	.string "Are you sure you want to save now\n"
-	.string "and overwrite the other save file?$"
+	.string "A - TEN - CIÓ!\p"
+	.string "Ja hi ha un fitxer de guardat\n"
+	.string "diferent.\p"
+	.string "Si guardes ara, l'aventura de\n"
+	.string "l'altre fitxer, incloent objectes\l"
+	.string "i POKéMON, es perdrà completament.\p"
+	.string "Segur que vols guardar ara i\n"
+	.string "sobreescriure l'altre fitxer?$"
 
 gText_SaveError::
-	.string "Save error.\p"
+	.string "SAVE ERROR.\p"
 	.string "Please exchange the\n"
 	.string "backup memory.$"
 
 gText_SavingDontTurnOffPower::
-	.string "SAVING…\n"
-	.string "DON'T TURN OFF THE POWER.$"
+	.string "DESANT…\n"
+	.string "NO APAGUIS LA CONSOLA.$"

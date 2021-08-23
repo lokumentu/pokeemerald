@@ -1,9 +1,9 @@
 {
-  "id": "MAP_ROUTE109_SEASHORE_HOUSE",
+  "id": "MAP_RUTA109_SEASHORE_HOUSE",
   "name": "Route109_SeashoreHouse",
-  "layout": "LAYOUT_ROUTE109_SEASHORE_HOUSE",
+  "layout": "LAYOUT_RUTA109_SEASHORE_HOUSE",
   "music": "MUS_DEWFORD",
-  "region_map_section": "MAPSEC_ROUTE_109",
+  "region_map_section": "MAPSEC_RUTA_109",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -72,14 +72,14 @@
       "x": 6,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE109",
+      "dest_map": "MAP_RUTA109",
       "dest_warp_id": 0
     },
     {
       "x": 7,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE109",
+      "dest_map": "MAP_RUTA109",
       "dest_warp_id": 0
     }
   ],

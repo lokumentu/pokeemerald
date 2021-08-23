@@ -1,9 +1,9 @@
 {
-  "id": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+  "id": "MAP_RUTA110_TRICK_HOUSE_ENTRANCE",
   "name": "Route110_TrickHouseEntrance",
-  "layout": "LAYOUT_ROUTE110_TRICK_HOUSE_ENTRANCE",
+  "layout": "LAYOUT_RUTA110_TRICK_HOUSE_ENTRANCE",
   "music": "MUS_TRICK_HOUSE",
-  "region_map_section": "MAPSEC_ROUTE_110",
+  "region_map_section": "MAPSEC_RUTA_110",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -33,21 +33,21 @@
       "x": 5,
       "y": 7,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE110",
+      "dest_map": "MAP_RUTA110",
       "dest_warp_id": 1
     },
     {
       "x": 6,
       "y": 7,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE110",
+      "dest_map": "MAP_RUTA110",
       "dest_warp_id": 1
     },
     {
       "x": 5,
       "y": 2,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE1",
+      "dest_map": "MAP_RUTA110_TRICK_HOUSE_PUZZLE1",
       "dest_warp_id": 0
     }
   ],

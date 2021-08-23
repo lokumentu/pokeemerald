@@ -103,7 +103,7 @@ Route120_EventScript_BerryBeauty::
 	lock
 	faceplayer
 	dotimebasedevents
-	goto_if_set FLAG_DAILY_ROUTE_120_RECEIVED_BERRY, Route120_EventScript_ReceivedBerry
+	goto_if_set FLAG_DAILY_RUTA_120_RECEIVED_BERRY, Route120_EventScript_ReceivedBerry
 	msgbox Route120_Text_BerriesExpressionOfLoveIsntIt, MSGBOX_YESNO
 	compare VAR_RESULT, YES
 	call_if_eq Route120_EventScript_BerryLove
@@ -152,7 +152,7 @@ Route120_EventScript_GiveBerry::
 	giveitem VAR_0x8004
 	compare VAR_RESULT, FALSE
 	goto_if_eq Common_EventScript_ShowBagIsFull
-	setflag FLAG_DAILY_ROUTE_120_RECEIVED_BERRY
+	setflag FLAG_DAILY_RUTA_120_RECEIVED_BERRY
 	msgbox Route120_Text_BerryIsRareRaiseItWithCare, MSGBOX_DEFAULT
 	release
 	end
@@ -173,7 +173,7 @@ Route120_EventScript_BerryNotLove::
 Route120_EventScript_Steven::
 	lock
 	faceplayer
-	goto_if_set FLAG_NOT_READY_FOR_BATTLE_ROUTE_120, Route120_EventScript_StevenAskReadyForBattle
+	goto_if_set FLAG_NOT_READY_FOR_BATTLE_RUTA_120, Route120_EventScript_StevenAskReadyForBattle
 	msgbox Route120_Text_StevenGreeting, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq Route120_EventScript_StevenNotReady
@@ -182,7 +182,7 @@ Route120_EventScript_Steven::
 
 Route120_EventScript_StevenNotReady::
 	msgbox Route120_Text_StevenIllWaitHere, MSGBOX_DEFAULT
-	setflag FLAG_NOT_READY_FOR_BATTLE_ROUTE_120
+	setflag FLAG_NOT_READY_FOR_BATTLE_RUTA_120
 	release
 	end
 
@@ -449,9 +449,9 @@ Kecleon_Text_UseDevonScopeMonAttacked:
 	.string "The startled POKéMON attacked!$"
 
 Route120_Text_RouteSignFortree:
-	.string "ROUTE 120\n"
+	.string "RUTA 120\n"
 	.string "{LEFT_ARROW} FORTREE CITY$"
 
 Route120_Text_RouteSign121:
-	.string "{RIGHT_ARROW} ROUTE 121\n"
-	.string "{LEFT_ARROW} ROUTE 120$"
+	.string "{RIGHT_ARROW} RUTA 121\n"
+	.string "{LEFT_ARROW} RUTA 120$"

@@ -1,12 +1,12 @@
 {
-  "id": "MAP_ROUTE117",
+  "id": "MAP_RUTA117",
   "name": "Route117",
-  "layout": "LAYOUT_ROUTE117",
-  "music": "MUS_ROUTE110",
-  "region_map_section": "MAPSEC_ROUTE_117",
+  "layout": "LAYOUT_RUTA117",
+  "music": "MUS_RUTA110",
+  "region_map_section": "MAPSEC_RUTA_117",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_RUTA",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -164,7 +164,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_117_WEPEAR_3",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_117_WEPEAR_3",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -177,7 +177,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_117_WEPEAR_2",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_117_WEPEAR_2",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -190,7 +190,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_117_WEPEAR_1",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_RUTA_117_WEPEAR_1",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -205,7 +205,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route117_EventScript_ItemGreatBall",
-      "flag": "FLAG_ITEM_ROUTE_117_GREAT_BALL"
+      "flag": "FLAG_ITEM_RUTA_117_GREAT_BALL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
@@ -231,7 +231,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route117_EventScript_ItemRevive",
-      "flag": "FLAG_ITEM_ROUTE_117_REVIVE"
+      "flag": "FLAG_ITEM_RUTA_117_REVIVE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_RUNNING_TRIATHLETE_F",
@@ -343,7 +343,7 @@
       "x": 51,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE117_POKEMON_DAY_CARE",
+      "dest_map": "MAP_RUTA117_POKEMON_DAY_CARE",
       "dest_warp_id": 0
     }
   ],
@@ -379,7 +379,7 @@
       "y": 18,
       "elevation": 3,
       "item": "ITEM_REPEL",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_117_REPEL"
+      "flag": "FLAG_HIDDEN_ITEM_RUTA_117_REPEL"
     }
   ]
 }

@@ -191,8 +191,8 @@ Route123_Text_CheckTreesWithMyGrassMon:
 	.string "POKéMON. I'm like a tree doctor.$"
 
 Route123_Text_RouteSign:
-	.string "{RIGHT_ARROW} ROUTE 123\n"
-	.string "{LEFT_ARROW} ROUTE 118$"
+	.string "{RIGHT_ARROW} RUTA 123\n"
+	.string "{LEFT_ARROW} RUTA 118$"
 
 Route123_Text_RouteSignMtPyre:
 	.string "{UP_ARROW} MT. PYRE\n"
