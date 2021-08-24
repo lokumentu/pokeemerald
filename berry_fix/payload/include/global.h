@@ -84,7 +84,7 @@ enum
 enum LanguageId
 {
     LANGUAGE_JAPANESE = 1,
-    LANGUAGE_ENGLISH = 2,
+    LANGUAGE_CATALAN = 2,
     LANGUAGE_GERMAN = 5,
 };
 

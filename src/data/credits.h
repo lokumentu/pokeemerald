@@ -41,7 +41,7 @@ enum
     PAGE_ARTWORK_2,
     PAGE_ARTWORK_3,
     PAGE_COORDINATORS,
-    PAGE_ENGLISH_VERSION,
+    PAGE_CATALAN_VERSION,
     PAGE_TRANSLATOR,
     PAGE_TEXT_EDITOR,
     PAGE_NCL_COORDINATOR,
@@ -671,7 +671,7 @@ static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][EN
         sCreditsEntry_RetsujiNomoto,
         _,
     },
-    [PAGE_ENGLISH_VERSION] = {
+    [PAGE_CATALAN_VERSION] = {
         _,
         sCreditsEntry_EnglishVersion,
         sCreditsEntry_HiroNakamura,

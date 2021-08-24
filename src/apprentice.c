@@ -1266,7 +1266,7 @@ const u8 *GetApprenticeNameInLanguage(u32 apprenticeId, s32 language)
     {
     case LANGUAGE_JAPANESE:
         return apprentice->name[0];
-    case LANGUAGE_ENGLISH:
+    case LANGUAGE_CATALAN:
         return apprentice->name[1];
     case LANGUAGE_FRENCH:
         return apprentice->name[2];

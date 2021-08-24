@@ -18,7 +18,7 @@
 #define VERSION_GAMECUBE 15
 
 #define LANGUAGE_JAPANESE 1
-#define LANGUAGE_ENGLISH  2
+#define LANGUAGE_CATALAN  2
 #define LANGUAGE_FRENCH   3
 #define LANGUAGE_ITALIAN  4
 #define LANGUAGE_GERMAN   5
@@ -27,7 +27,7 @@
 #define NUM_LANGUAGES     7
 
 #define GAME_VERSION (VERSION_EMERALD)
-#define GAME_LANGUAGE (LANGUAGE_ENGLISH)
+#define GAME_LANGUAGE (LANGUAGE_CATALAN)
 
 // capacities of various saveblock objects
 #define DAYCARE_MON_COUNT 2
