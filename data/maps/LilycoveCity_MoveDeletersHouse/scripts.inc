@@ -77,7 +77,7 @@ LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
 	.string "Uh…\n"
 	.string "Oh, yes, I'm the MOVE DELETER.\p"
 	.string "I can make Pokémon forget their moves.\p"
-	.string "Would you like me to do that?$"
+	.string "Voldries me to do that?$"
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget:
 	.string "Which Pokémon should forget a move?$"

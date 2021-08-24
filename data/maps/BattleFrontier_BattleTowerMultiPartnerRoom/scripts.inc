@@ -288,7 +288,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner:
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_QuitLookingForPartner:
 	.string "{PLAYER}, you have not found a partner\n"
 	.string "for your tag team.\p"
-	.string "Would you like to quit looking and\n"
+	.string "Voldries to quit looking and\n"
 	.string "return to the reception counter?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner2:
@@ -1634,7 +1634,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon1::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon2Ask::
 	.string "one {STR_VAR_2} with {STR_VAR_1}.\p"
-	.string "Would you like to form a tag team\n"
+	.string "Voldries to form a tag team\n"
 	.string "with me?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMAccept::

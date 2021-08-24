@@ -16,7 +16,7 @@ ShoalCave_LowTideEntranceRoom_Text_BringMe4ShoalSaltAndShells:
 ShoalCave_LowTideEntranceRoom_Text_WouldYouLikeShellBell:
 	.string "Oh, hey! SHOAL SALT and SHOAL SHELLS!\n"
 	.string "And enough of them, too!\p"
-	.string "Would you like me to make you\n"
+	.string "Voldries me to make you\n"
 	.string "a SHELL BELL with them?$"
 
 ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway:

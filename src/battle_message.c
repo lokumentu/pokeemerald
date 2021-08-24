@@ -1279,7 +1279,7 @@ const u8 gText_LinkStandby[] = _("{PAUSE 16}Link standby…");
 const u8 gText_BattleMenu[] = _("FIGHT{CLEAR_TO 56}BAG\nPokémon{CLEAR_TO 56}RUN");
 const u8 gText_SafariZoneMenu[] = _("BALL{CLEAR_TO 56}{POKEBLOCK}\nGO NEAR{CLEAR_TO 56}RUN");
 const u8 gText_MoveInterfacePP[] = _("PP ");
-const u8 gText_MoveInterfaceType[] = _("TIPUS/");
+const u8 gText_MoveInterfaceType[] = _("TIPUS ");
 const u8 gText_MoveInterfacePpType[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PP\nTYPE/");
 const u8 gText_MoveInterfaceDynamicColors[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}");
 const u8 gText_WhichMoveToForget4[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Which move should\nbe forgotten?");
@@ -1422,14 +1422,14 @@ const u8 * const gRefereeStringsTable[] =
     [B_MSG_REF_COMMENCE_BATTLE]    = sText_RefCommenceBattle,
 };
 
-static const u8 sText_QuestionForfeitMatch[] = _("Would you like to forfeit the match\nand quit now?");
+static const u8 sText_QuestionForfeitMatch[] = _("Voldries to forfeit the match\nand quit now?");
 static const u8 sText_ForfeitedMatch[] = _("{B_PLAYER_NAME} forfeited the match!");
 static const u8 sText_Trainer1WinText[] = _("{B_TRAINER1_WIN_TEXT}");
 static const u8 sText_Trainer2WinText[] = _("{B_TRAINER2_WIN_TEXT}");
 static const u8 sText_Trainer1Fled[] = _( "{PLAY_SE SE_FLEE}{B_TRAINER1_CLASS} {B_TRAINER1_NAME} fled!");
 static const u8 sText_PlayerLostAgainstTrainer1[] = _("Player lost against\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!");
 static const u8 sText_PlayerBattledToDrawTrainer1[] = _("Player battled to a draw against\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!");
-const u8 gText_RecordBattleToPass[] = _("Would you like to record your battle\non your FRONTIER PASS?");
+const u8 gText_RecordBattleToPass[] = _("Voldries to record your battle\non your FRONTIER PASS?");
 const u8 gText_BattleRecordedOnPass[] = _("{B_PLAYER_NAME}'s battle result was recorded\non the FRONTIER PASS.");
 static const u8 sText_LinkTrainerWantsToBattlePause[] = _("{B_LINK_OPPONENT1_NAME}\nwants to battle!{PAUSE 49}");
 static const u8 sText_TwoLinkTrainersWantToBattlePause[] = _("{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}\nwant to battle!{PAUSE 49}");

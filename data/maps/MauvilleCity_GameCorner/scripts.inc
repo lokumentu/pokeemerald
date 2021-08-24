@@ -681,7 +681,7 @@ MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins:
 MauvilleCity_GameCorner_Text_WereYouLookingForCoins:
 	.string "Were you looking for COINS?\p"
 	.string "It's ¥1000 for 50 COINS.\n"
-	.string "Would you like some?$"
+	.string "Voldries some?$"
 
 MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins:
 	.string "Thank you very much!\n"
@@ -741,7 +741,7 @@ MauvilleCity_GameCorner_Text_CantCarryAnyMore:
 MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne:
 	.string "I made a mistake and got two of\n"
 	.string "the same DOLLS.\p"
-	.string "Would you like one of them?$"
+	.string "Voldries one of them?$"
 
 MauvilleCity_GameCorner_Text_HereYouGo2:
 	.string "Here you go!$"

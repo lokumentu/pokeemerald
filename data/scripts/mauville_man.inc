@@ -884,7 +884,7 @@ MauvilleCity_PokemonCenter_1F_EventScript_StorytellerEnd::
 MauvilleCity_PokemonCenter_1F_Text_HearMyStory:
 	.string "I'm GIDDY!\n"
 	.string "I have a scintillating story for you!\p"
-	.string "Would you like to hear my story?$"
+	.string "Voldries to hear my story?$"
 
 MauvilleCity_PokemonCenter_1F_Text_GiddyFeelingTheBlues:
 	.string "Oh…\n"
@@ -953,7 +953,7 @@ MauvilleCity_PokemonCenter_1F_EventScript_ToldEnoughTales::
 
 MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToHearMySong:
 	.string "Hi, I'm the BARD.\n"
-	.string "Would you like to hear my song?$"
+	.string "Voldries to hear my song?$"
 
 MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues1:
 	.string "Oh…\n"

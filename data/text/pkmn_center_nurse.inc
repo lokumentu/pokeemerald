@@ -3,7 +3,7 @@ gText_WouldYouLikeToRestYourPkmn::
     .string "the Pokémon CENTER.\p"
     .string "We restore your tired Pokémon\n"
     .string "to full health.\p"
-    .string "Would you like to rest your Pokémon?$"
+    .string "Voldries to rest your Pokémon?$"
 
 gText_IllTakeYourPkmn::
     .string "Okay, I'll take your Pokémon\n"
@@ -22,7 +22,7 @@ gText_WelcomeCutShort::
     .string "the Pokémon CENTER.\p"
     .string "We restore your tired Pokémon\n"
     .string "to full health.\p"
-    .string "Would you like to…$"
+    .string "Voldries to…$"
 
 gText_NoticesGoldCard::
     .string "Th-that card…\n"

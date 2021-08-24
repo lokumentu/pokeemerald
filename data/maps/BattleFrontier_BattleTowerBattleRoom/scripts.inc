@@ -495,7 +495,7 @@ BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass:
 	.string "on the FRONTIER PASS.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame:
-	.string "Would you like to save and\n"
+	.string "Voldries to save and\n"
 	.string "quit the game?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
@@ -503,7 +503,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
 	.string "Please wait.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
-	.string "Would you like to cancel your BATTLE\n"
+	.string "Voldries to cancel your BATTLE\n"
 	.string "ROOM challenge?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::

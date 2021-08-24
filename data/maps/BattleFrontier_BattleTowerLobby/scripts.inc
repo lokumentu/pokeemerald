@@ -1215,7 +1215,7 @@ BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle:
 	.string "BATTLE ROOMS.$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeSinglesChallenge:
-	.string "Would you like to take the SINGLE\n"
+	.string "Voldries to take the SINGLE\n"
 	.string "BATTLE ROOM challenge?$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainSinglesChallenge:
@@ -1245,7 +1245,7 @@ BattleFrontier_BattleTowerLobby_Text_WelcomeDoubleBattle:
 	.string "BATTLE ROOMS.$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeDoublesChallenge:
-	.string "Would you like to take the DOUBLE\n"
+	.string "Voldries to take the DOUBLE\n"
 	.string "BATTLE ROOM challenge?$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainDoublesChallenge:
@@ -1275,7 +1275,7 @@ BattleFrontier_BattleTowerLobby_Text_WelcomeMultiBattle:
 	.string "BATTLE ROOMS.$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeMultisChallenge:
-	.string "Would you like to take the MULTI\n"
+	.string "Voldries to take the MULTI\n"
 	.string "BATTLE ROOM challenge?$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainMultisChallenge:
@@ -1313,7 +1313,7 @@ BattleFrontier_BattleTowerLobby_Text_WelcomeLinkMultiBattle:
 	.string "BATTLE ROOMS.$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeLinkMultisChallenge:
-	.string "Would you like to take the LINK MULTI\n"
+	.string "Voldries to take the LINK MULTI\n"
 	.string "BATTLE ROOM challenge?$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge:

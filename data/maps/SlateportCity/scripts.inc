@@ -1343,7 +1343,7 @@ SlateportCity_Text_DontHaveEnoughBerryPowder:
 SlateportCity_Text_FineBerryPowderTradeSomethingElse:
 	.string "This is fine BERRY POWDER.\n"
 	.string "It will make excellent medicine.\p"
-	.string "Would you like to trade more of your\n"
+	.string "Voldries to trade more of your\n"
 	.string "BERRY POWDER for something else?$"
 
 SlateportCity_Text_WhenYouGetMoreBringItToMe:

@@ -1,6 +1,6 @@
 Mevent_Text_FillOutQuestionnaire::
 	.string "There is a questionnaire.\n"
-	.string "Would you like to fill it out?$"
+	.string "Voldries to fill it out?$"
 
 Mevent_Text_QuestionnaireThankYou::
 	.string "Thank you for taking the time to\n"

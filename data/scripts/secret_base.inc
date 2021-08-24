@@ -758,7 +758,7 @@ SecretBase_Text_WantToRegisterSecretBase:
 
 SecretBase_Text_AlreadyRegisteredDelete:
 	.string "This data is already registered.\n"
-	.string "Would you like to delete it?$"
+	.string "Voldries to delete it?$"
 
 SecretBase_Text_TooManyBasesDeleteSome:
 	.string "Up to 10 locations can be registered.\p"
@@ -805,9 +805,9 @@ SecretBase_Text_SkittyTV:
 
 SecretBase_Text_WouldYouLikeToMoveBases:
 	.string "You may only make one SECRET BASE.\p"
-	.string "Would you like to move from the SECRET\n"
+	.string "Voldries to move from the SECRET\n"
 	.string "BASE near {STR_VAR_1}?$"
 
 SecretBase_Text_MovingCompletedUseSecretPower:
 	.string "Moving completed.\p"
-	.string "Would you like to use the SECRET POWER?$"
+	.string "Voldries to use the SECRET POWER?$"

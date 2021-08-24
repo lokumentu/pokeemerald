@@ -176,7 +176,7 @@ BerryBlender_Text_SetNewBlenderRecord:
 BerryBlender_Text_LookGoodAtBlendingJoinUs:
 	.string "Oh, dear!\n"
 	.string "You look as if you're good at blending.\l"
-	.string "Would you like to join us?$"
+	.string "Voldries to join us?$"
 
 BerryBlender_Text_MakeDeliciousPokeblocks:
 	.string "I'm going to make delicious {POKEBLOCK}S\n"

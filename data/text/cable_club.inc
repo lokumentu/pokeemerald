@@ -310,7 +310,7 @@ MossdeepCity_GameCorner_1F_Text_LeavingDoComeAgain:
 MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon:
 	.string "It doesn't look like you have any\n"
 	.string "Pokémon that you can enter…\p"
-	.string "Would you like me to explain what\n"
+	.string "Voldries me to explain what\n"
 	.string "kinds of Pokémon can enter?$"
 
 MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
@@ -340,18 +340,18 @@ CableClub_Text_WelcomeWhichDirectCornerRoom:
 	.string "enter?$"
 
 CableClub_Text_TradePokemon:
-	.string "Would you like to trade Pokémon?$"
+	.string "Voldries to trade Pokémon?$"
 
 CableClub_Text_PlayWhichBattleMode:
 	.string "Which Battle Mode would you like\n"
 	.string "to play?$"
 
 CableClub_Text_AccessRecordCorner:
-	.string "Would you like to access\n"
+	.string "Voldries to access\n"
 	.string "the RECORD CORNER?$"
 
 CableClub_Text_UseBerryCrush:
-	.string "Would you like to use the\n"
+	.string "Voldries to use the\n"
 	.string "BERRY CRUSH System?$"
 
 CableClub_Text_ExplainBattleModes:
@@ -393,7 +393,7 @@ CableClub_Text_WelcomeUnionRoomEnter:
 	.string "You may interact directly with\n"
 	.string "other TRAINERS here, some of\l"
 	.string "whom you may not even know.\p"
-	.string "Would you like to enter the ROOM?$"
+	.string "Voldries to enter the ROOM?$"
 
 CableClub_Text_UnionRoomInfo:
 	.string "The TRAINERS in the UNION ROOM\n"
@@ -407,7 +407,7 @@ CableClub_Text_UnionRoomInfo:
 	.string "two to five people.\p"
 	.string "Or, you may register a Pokémon for\n"
 	.string "trade.\p"
-	.string "Would you like to enter the ROOM?$"
+	.string "Voldries to enter the ROOM?$"
 
 CableClub_Text_EnjoyUnionRoom:
 	.string "I hope you enjoy your time in\n"

@@ -219,7 +219,7 @@ SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent:
 	.string "Tournament.$"
 
 SlateportCity_BattleTentLobby_Text_TakeChallenge:
-	.string "Would you like to take the Battle\n"
+	.string "Voldries to take the Battle\n"
 	.string "Swap challenge?$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:

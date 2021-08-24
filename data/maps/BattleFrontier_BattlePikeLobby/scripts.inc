@@ -278,7 +278,7 @@ BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
 	.string "I am your guide to the BATTLE PIKE…$"
 
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
-	.string "Would you like to take the Battle\n"
+	.string "Voldries to take the Battle\n"
 	.string "Choice challenge?$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:

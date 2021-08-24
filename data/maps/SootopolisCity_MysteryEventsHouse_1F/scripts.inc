@@ -192,7 +192,7 @@ SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked:
 SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer:
 	.string "A TRAINER named {STR_VAR_1}\n"
 	.string "is visiting my home.\p"
-	.string "Would you like to challenge\n"
+	.string "Voldries to challenge\n"
 	.string "{STR_VAR_1}?$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle:

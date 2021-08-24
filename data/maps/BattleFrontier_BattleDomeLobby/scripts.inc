@@ -463,7 +463,7 @@ BattleFrontier_BattleDomeLobby_Text_WelcomeSingleBattle:
 	.string "Tournament.$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeSinglesChallenge:
-	.string "Would you like to challenge\n"
+	.string "Voldries to challenge\n"
 	.string "the SINGLE BATTLE Tournament?$"
 
 BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain:
@@ -574,7 +574,7 @@ BattleFrontier_BattleDomeLobby_Text_WelcomeDoubleBattle:
 	.string "Tournament.$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge:
-	.string "Would you like to challenge\n"
+	.string "Voldries to challenge\n"
 	.string "the DOUBLE BATTLE Tournament?$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
@@ -668,7 +668,7 @@ BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
 	.string "we award you these Battle Point(s)!$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
-	.string "Would you like to record your\n"
+	.string "Voldries to record your\n"
 	.string "last BATTLE DOME match on your\l"
 	.string "FRONTIER PASS?$"
 

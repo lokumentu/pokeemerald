@@ -489,7 +489,7 @@ DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
 Route109_Text_BrineySailToDewfordQuestion:
 	.string "MR. BRINEY: I thought you're supposed\n"
 	.string "to deliver the DEVON GOODS.\p"
-	.string "Would you like to sail back to\n"
+	.string "Voldries to sail back to\n"
 	.string "DEWFORD, then?$"
 
 Route109_Text_BrineyDewfordItIs:

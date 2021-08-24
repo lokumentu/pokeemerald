@@ -359,7 +359,7 @@ Route117_Text_IWillKeepDoYouWantIt:
 Route117_PokemonDayCare_Text_WouldYouLikeUsToRaiseAMon:
 	.string "I'm the DAY-CARE LADY.\p"
 	.string "We can raise Pokémon for you.\p"
-	.string "Would you like us to raise one?$"
+	.string "Voldries us to raise one?$"
 
 Route117_PokemonDayCare_Text_WhichMonShouldWeRaise:
 	.string "Which Pokémon should we raise for\n"
@@ -372,7 +372,7 @@ Route117_PokemonDayCare_Text_WellRaiseYourMon:
 
 Route117_PokemonDayCare_Text_WeCanRaiseOneMore:
 	.string "We can raise two of your Pokémon.\n"
-	.string "Would you like us to raise one more?$"
+	.string "Voldries us to raise one more?$"
 
 Route117_PokemonDayCare_Text_HusbandWasLookingForYou:
 	.string "My husband was looking for you.$"

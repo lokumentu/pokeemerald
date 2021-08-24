@@ -327,7 +327,7 @@ RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 	.string "It came about as a result of our\n"
 	.string "PRESIDENT's desire to learn about\l"
 	.string "the feelings of Pokémon.\p"
-	.string "Would you like me to describe its\n"
+	.string "Voldries me to describe its\n"
 	.string "features in detail?\p"
 	.string "No, no. I think you'll find out just by\n"
 	.string "trying the POKéNAV out.$"
@@ -346,7 +346,7 @@ RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
 	.string "Wait! That thing you have there…\n"
 	.string "Is that a Pokémon fossil?\p"
-	.string "Would you like to bring that Pokémon\n"
+	.string "Voldries to bring that Pokémon\n"
 	.string "back to life?\p"
 	.string "I can with my newly developed\n"
 	.string "FOSSIL REGENERATOR.$"
@@ -361,7 +361,7 @@ RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 	.string "You have not one, but two, fossils?\p"
 	.string "Unfortunately, my machine can only\n"
 	.string "regenerate one Pokémon at a time.\p"
-	.string "Would you like to pick one of your\n"
+	.string "Voldries to pick one of your\n"
 	.string "fossils for regeneration?$"
 
 RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:

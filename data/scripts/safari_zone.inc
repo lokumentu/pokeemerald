@@ -74,7 +74,7 @@ SafariZone_EventScript_PokeblockPresent::
 	end
 
 SafariZone_Text_WouldYouLikeToExit:
-	.string "Would you like to exit the SAFARI\n"
+	.string "Voldries to exit the SAFARI\n"
 	.string "ZONE right now?$"
 
 SafariZone_Text_TimesUp:
@@ -86,7 +86,7 @@ SafariZone_Text_OutOfBalls:
 	.string "Your SAFARI Game is over.$"
 
 SafariZone_Text_PlacePokeblockOnFeeder:
-	.string "Would you like to place a {POKEBLOCK}\n"
+	.string "Voldries to place a {POKEBLOCK}\n"
 	.string "on the {POKEBLOCK} FEEDER?$"
 
 SafariZone_Text_PokeblockStillHere:
@@ -128,7 +128,7 @@ Route121_SafariZoneEntrance_Text_FirstTimeInfo:
 Route121_SafariZoneEntrance_Text_WouldYouLikeToPlay:
 	.string "Welcome to the SAFARI ZONE!\p"
 	.string "All you can catch for just ¥500!\n"
-	.string "Would you like to play a SAFARI Game?$"
+	.string "Voldries to play a SAFARI Game?$"
 
 Route121_SafariZoneEntrance_Text_PlayAnotherTime:
 	.string "Okay.\n"
@@ -167,7 +167,7 @@ Route121_SafariZoneEntrance_Text_YouNeedPokeblockCase:
 	.string "the LILYCOVE CONTEST HALL.$"
 
 SafariZone_South_Text_StillHaveTimeExit:
-	.string "You still have time left. Would you like\n"
+	.string "You still have time left. Voldries\n"
 	.string "to exit the SAFARI ZONE now?$"
 
 SafariZone_South_Text_EnjoyTheRestOfYourAdventure:

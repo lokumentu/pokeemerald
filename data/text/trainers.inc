@@ -2100,7 +2100,7 @@ Route115_Text_CyndyPostRematch:
 
 Route115_Text_HectorIntro:
 	.string "I have a rare Pokémon!\n"
-	.string "Would you like me to show you?$"
+	.string "Voldries me to show you?$"
 
 Route115_Text_HectorDefeat:
 	.string "You…\n"

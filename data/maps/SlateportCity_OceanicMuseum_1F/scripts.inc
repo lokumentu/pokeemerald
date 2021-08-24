@@ -234,7 +234,7 @@ SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExitNorth:
 SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter:
 	.string "Welcome to the OCEANIC MUSEUM.\p"
 	.string "The entrance fee is ¥50.\n"
-	.string "Would you like to enter?$"
+	.string "Voldries to enter?$"
 
 SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself:
 	.string "Please enjoy yourself.$"

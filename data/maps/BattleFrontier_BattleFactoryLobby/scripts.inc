@@ -341,7 +341,7 @@ BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
 	.string "Single Tournament.$"
 
 BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge:
-	.string "Would you like to take the Battle\n"
+	.string "Voldries to take the Battle\n"
 	.string "Swap Single challenge?$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge:
@@ -437,7 +437,7 @@ BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
 	.string "Double Tournament.$"
 
 BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge:
-	.string "Would you like to take the Battle\n"
+	.string "Voldries to take the Battle\n"
 	.string "Swap Double challenge?$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
@@ -475,7 +475,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
 	.string "so please wait.$"
 
 BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch:
-	.string "Would you like to record your last\n"
+	.string "Voldries to record your last\n"
 	.string "BATTLE FACTORY match on your\l"
 	.string "FRONTIER PASS?$"
 

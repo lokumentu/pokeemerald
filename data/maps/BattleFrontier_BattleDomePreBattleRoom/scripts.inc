@@ -355,11 +355,11 @@ BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInFinals:
 	.string "The tournament is up to the final.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SaveAndQuitGame:
-	.string "Would you like to save and\n"
+	.string "Voldries to save and\n"
 	.string "quit the game?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RetireYourChallenge:
-	.string "Would you like to retire from your\n"
+	.string "Voldries to retire from your\n"
 	.string "Battle Tournament challenge?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait:

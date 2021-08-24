@@ -527,11 +527,11 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor7thOpponent:
 	.string "Are you ready?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame:
-	.string "Would you like to save and quit\n"
+	.string "Voldries to save and quit\n"
 	.string "the game?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge:
-	.string "Would you like to retire from your\n"
+	.string "Voldries to retire from your\n"
 	.string "Battle Swap challenge?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
@@ -662,7 +662,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait:
 	.string "Please wait.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle:
-	.string "Would you like to record your latest\n"
+	.string "Voldries to record your latest\n"
 	.string "battle on your FRONTIER PASS?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments:

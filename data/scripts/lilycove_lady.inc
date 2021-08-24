@@ -692,7 +692,7 @@ LilycoveCity_PokemonCenter_1F_Text_WaitingForChallenger:
 LilycoveCity_PokemonCenter_1F_Text_TakeQuizChallenge:
     .string "If you answer correctly, you can win\n"
     .string "fabulous prizes!\p"
-    .string "Would you like to take the quiz\n"
+    .string "Voldries to take the quiz\n"
     .string "challenge?$"
 
 LilycoveCity_PokemonCenter_1F_Text_WaitForAnswer:
@@ -741,7 +741,7 @@ LilycoveCity_PokemonCenter_1F_Text_IGetToKeepPrize:
 
 LilycoveCity_PokemonCenter_1F_Text_MakeYourOwnQuiz:
     .string "Listen, listen!\n"
-    .string "Would you like to make your own quiz?$"
+    .string "Voldries to make your own quiz?$"
 
 LilycoveCity_PokemonCenter_1F_Text_MaybeNextTime:
     .string "Oh, I see…\n"

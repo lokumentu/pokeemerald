@@ -559,11 +559,11 @@ BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent:
 	.string "Are you ready to move on?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown:
-	.string "Would you like to save the game and\n"
+	.string "Voldries to save the game and\n"
 	.string "shut down now?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge:
-	.string "Would you like to retire from your\n"
+	.string "Voldries to retire from your\n"
 	.string "Set KO Tourney challenge?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
@@ -571,7 +571,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
 	.string "Please wait.$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
-	.string "Would you like to record your last\n"
+	.string "Voldries to record your last\n"
 	.string "battle on your FRONTIER PASS?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:

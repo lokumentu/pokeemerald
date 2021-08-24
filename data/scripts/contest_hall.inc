@@ -1505,7 +1505,7 @@ LilycoveCity_ContestLobby_Text_CounterOnlyFor4PlayerContests:
 	.string "for 4-player Pokémon CONTESTS.$"
 
 LilycoveCity_ContestLobby_Text_EnterContest1:
-	.string "Would you like to enter your Pokémon\n"
+	.string "Voldries to enter your Pokémon\n"
 	.string "in our CONTESTS?$"
 
 LilycoveCity_ContestLobby_Text_WhichTopic1:
@@ -1581,7 +1581,7 @@ LilycoveCity_ContestLobby_Text_AlreadyWonEnterAnyway:
 	.string "Oh, but that RIBBON…\p"
 	.string "Your Pokémon has won this CONTEST\n"
 	.string "before, hasn't it?\p"
-	.string "Would you like to enter it in this\n"
+	.string "Voldries to enter it in this\n"
 	.string "CONTEST anyway?$"
 
 LilycoveCity_ContestLobby_Text_ConfirmContestMon:
@@ -1701,7 +1701,7 @@ ContestHall_Text_OnlyRegister4Players:
 	.string "Pokémon CONTESTS.\p"
 	.string "If three other players link up, all\n"
 	.string "four may enter the same CONTEST.\p"
-	.string "Would you like to take part?$"
+	.string "Voldries to take part?$"
 
 LilycoveCity_ContestLobby_Text_ProgressWillBeSaved:
 	.string "Before entering a CONTEST, your\n"
@@ -1713,7 +1713,7 @@ LilycoveCity_ContestLobby_Text_ParticipateAnotherTime:
 
 @ Unused
 LilycoveCity_ContestLobby_Text_EnterContest2:
-	.string "Would you like to enter a CONTEST?$"
+	.string "Voldries to enter a CONTEST?$"
 
 @ Unused
 LilycoveCity_ContestLobby_Text_Explain4PlayerContest:
@@ -1781,7 +1781,7 @@ LilycoveCity_ContestLobby_Text_WhichTopic2:
 	.string "Which topic would you like?$"
 
 LilycoveCity_ContestLobby_Text_EnterContest3:
-	.string "Would you like to enter a CONTEST?$"
+	.string "Voldries to enter a CONTEST?$"
 
 LilycoveCity_ContestLobby_Text_EnterWhichContest3:
 	.string "Which CONTEST would you like to enter?$"

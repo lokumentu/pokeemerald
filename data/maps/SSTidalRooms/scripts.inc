@@ -149,7 +149,7 @@ SSTidalRooms_Text_GarretPostBattle:
 
 SSTidalRooms_Text_NaomiIntro:
 	.string "Oh, you're such an adorable TRAINER.\n"
-	.string "Would you like to have tea?\l"
+	.string "Voldries to have tea?\l"
 	.string "Or would you rather battle?$"
 
 SSTidalRooms_Text_NaomiDefeat:

@@ -51,7 +51,7 @@ RS_MysteryEventsHouse_Text_DoorIsLocked:
 RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer:
 	.string "A TRAINER named {STR_VAR_1} is\n"
 	.string "visiting my home.\p"
-	.string "Would you like to challenge\n"
+	.string "Voldries to challenge\n"
 	.string "{STR_VAR_1}?$"
 
 RS_MysteryEventsHouse_Text_YouWontBattle:

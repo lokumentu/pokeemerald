@@ -330,7 +330,7 @@ TrainerHill_Entrance_Text_TrainersInEveryRoom:
 	.string "in every room.$"
 
 TrainerHill_Entrance_Text_LikeToChallengeTrainers:
-	.string "Would you like to challenge the\n"
+	.string "Voldries to challenge the\n"
 	.string "waiting TRAINERS?$"
 
 TrainerHill_Entrance_Text_TimeProgessGetSetGo:
@@ -460,5 +460,5 @@ TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen:
 	.string "challenger ever!$"
 
 TrainerHill_Elevator_Text_ReturnToReception:
-	.string "Would you like to return to\n"
+	.string "Voldries to return to\n"
 	.string "the reception counter?$"

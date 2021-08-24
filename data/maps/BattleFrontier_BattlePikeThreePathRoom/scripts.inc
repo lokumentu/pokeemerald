@@ -298,7 +298,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge:
 	.string "your challenge?$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SaveChallengeAndQuit:
-	.string "Would you like to save your challenge\n"
+	.string "Voldries to save your challenge\n"
 	.string "and quit the game for now?$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge:

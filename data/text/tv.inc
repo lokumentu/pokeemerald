@@ -1247,7 +1247,7 @@ TrendWatcher_Text_Intro::
 	.string "Old man: No.\p"
 	.string "{STR_VAR_1} {STR_VAR_2} never\n"
 	.string "did get popular at all.\p"
-	.string "Would you like to hear about it?\p"
+	.string "Voldries to hear about it?\p"
 	.string "MC: Uh, no. What we want to know is\n"
 	.string "what's the in thing of the moment…$"
 

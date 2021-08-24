@@ -173,9 +173,9 @@ static const u8 *const sCommunicatingWaitTexts[] = {
 };
 
 ALIGNED(4) const u8 sText_HiDoSomethingMale[] = _("Hiya! Is there something that you\nwanted to do?");
-ALIGNED(4) const u8 sText_HiDoSomethingFemale[] = _("Hello!\nWould you like to do something?");
+ALIGNED(4) const u8 sText_HiDoSomethingFemale[] = _("Hello!\nVoldries to do something?");
 ALIGNED(4) const u8 sText_HiDoSomethingAgainMale[] = _("{STR_VAR_1}: Hiya, we meet again!\nWhat are you up for this time?");
-ALIGNED(4) const u8 sText_HiDoSomethingAgainFemale[] = _("{STR_VAR_1}: Oh! {PLAYER}, hello!\nWould you like to do something?");
+ALIGNED(4) const u8 sText_HiDoSomethingAgainFemale[] = _("{STR_VAR_1}: Oh! {PLAYER}, hello!\nVoldries to do something?");
 
 static const u8 *const sHiDoSomethingTexts[][GENDER_COUNT] = {
     {
@@ -188,7 +188,7 @@ static const u8 *const sHiDoSomethingTexts[][GENDER_COUNT] = {
 };
 
 ALIGNED(4) const u8 sText_DoSomethingMale[] = _("Want to do something?");
-ALIGNED(4) const u8 sText_DoSomethingFemale[] = _("Would you like to do something?");
+ALIGNED(4) const u8 sText_DoSomethingFemale[] = _("Voldries to do something?");
 ALIGNED(4) const u8 sText_DoSomethingAgainMale[] = _("{STR_VAR_1}: What would you like to\ndo now?");
 ALIGNED(4) const u8 sText_DoSomethingAgainFemale[] = _("{STR_VAR_1}: Want to do anything else?"); // Unused
 
@@ -219,7 +219,7 @@ static const u8 *const sAwaitingResponseTexts[] = {
     sText_AwaitingResponseFromPlayer
 };
 
-ALIGNED(4) const u8 sText_ShowTrainerCard[] = _("The other TRAINER showed\nyou their TRAINER CARD.\pWould you like to show your\nTRAINER CARD?");
+ALIGNED(4) const u8 sText_ShowTrainerCard[] = _("The other TRAINER showed\nyou their TRAINER CARD.\pVoldries to show your\nTRAINER CARD?");
 ALIGNED(4) const u8 sText_BattleChallenge[] = _("The other TRAINER challenges you\nto battle.\pWill you accept the battle\nchallenge?");
 ALIGNED(4) const u8 sText_ChatInvitation[] = _("The other TRAINER invites you\nto chat.\pWill you accept the chat\ninvitation?");
 ALIGNED(4) const u8 sText_OfferToTradeMon[] = _("There is an offer to trade your\nregistered Lv. {DYNAMIC 0} {DYNAMIC 1}\pin exchange for a\nLv. {DYNAMIC 2} {DYNAMIC 3}.\pWill you accept this trade\noffer?");
@@ -239,8 +239,8 @@ static const u8 *const sInvitationTexts[] = {
 
 ALIGNED(4) const u8 sText_JoinChatMale[] = _("Oh, hey! We're in a chat right now.\nWant to join us?");
 ALIGNED(4) const u8 sText_PlayerJoinChatMale[] = _("{STR_VAR_1}: Hey, {PLAYER}!\nWe're having a chat right now.\lWant to join us?");
-ALIGNED(4) const u8 sText_JoinChatFemale[] = _("Oh, hi! We're having a chat now.\nWould you like to join us?");
-ALIGNED(4) const u8 sText_PlayerJoinChatFemale[] = _("{STR_VAR_1}: Oh, hi, {PLAYER}!\nWe're having a chat now.\lWould you like to join us?");
+ALIGNED(4) const u8 sText_JoinChatFemale[] = _("Oh, hi! We're having a chat now.\nVoldries to join us?");
+ALIGNED(4) const u8 sText_PlayerJoinChatFemale[] = _("{STR_VAR_1}: Oh, hi, {PLAYER}!\nWe're having a chat now.\lVoldries to join us?");
 
 static const u8 *const sJoinChatTexts[][GENDER_COUNT] = {
     {
@@ -434,8 +434,8 @@ const u8 *const sTradeReactionTexts[GENDER_COUNT][4] = {
 };
 
 ALIGNED(4) const u8 sText_XCheckedTradingBoard[] = _("{STR_VAR_1} checked the\nTRADING BOARD.\p");
-ALIGNED(4) const u8 sText_RegisterMonAtTradingBoard[] = _("Welcome to the TRADING BOARD.\pYou may register your Pokémon\nand offer it up for a trade.\pWould you like to register one of\nyour Pokémon?");
-ALIGNED(4) const u8 sText_TradingBoardInfo[] = _("This TRADING BOARD is used for\noffering a Pokémon for a trade.\pAll you need to do is register a\nPokémon for a trade.\pAnother TRAINER may offer a party\nPokémon in return for the trade.\pWe hope you will register Pokémon\nand trade them with many, many\lother TRAINERS.\pWould you like to register one of\nyour Pokémon?");
+ALIGNED(4) const u8 sText_RegisterMonAtTradingBoard[] = _("Welcome to the TRADING BOARD.\pYou may register your Pokémon\nand offer it up for a trade.\pVoldries to register one of\nyour Pokémon?");
+ALIGNED(4) const u8 sText_TradingBoardInfo[] = _("This TRADING BOARD is used for\noffering a Pokémon for a trade.\pAll you need to do is register a\nPokémon for a trade.\pAnother TRAINER may offer a party\nPokémon in return for the trade.\pWe hope you will register Pokémon\nand trade them with many, many\lother TRAINERS.\pVoldries to register one of\nyour Pokémon?");
 ALIGNED(4) const u8 sText_ThankYouForRegistering[] = _("We have registered your Pokémon for\ntrade on the TRADING BOARD.\pThank you for using this service!\p"); // unused
 ALIGNED(4) const u8 sText_NobodyHasRegistered[] = _("Nobody has registered any Pokémon\nfor trade on the TRADING BOARD.\p\n"); // unused
 ALIGNED(4) const u8 sText_ChooseRequestedMonType[] = _("Please choose the type of Pokémon\nthat you would like in the trade.\n");
@@ -448,7 +448,7 @@ ALIGNED(4) const u8 sText_CancelRegistrationOfEgg[] = _("Cancel the registration
 ALIGNED(4) const u8 sText_RegistrationCanceled2[] = _("The registration has been canceled.\p");
 ALIGNED(4) const u8 sText_TradeTrainersWillBeListed[] = _("TRAINERS wishing to make a trade\nwill be listed."); // unused
 ALIGNED(4) const u8 sText_ChooseTrainerToTradeWith2[] = _("Please choose the TRAINER with whom\nyou would like to trade Pokémon."); // unused
-ALIGNED(4) const u8 sText_AskTrainerToMakeTrade[] = _("Would you like to ask {STR_VAR_1} to\nmake a trade?");
+ALIGNED(4) const u8 sText_AskTrainerToMakeTrade[] = _("Voldries to ask {STR_VAR_1} to\nmake a trade?");
 ALIGNED(4) const u8 sText_AwaitingResponseFromTrainer2[] = _("Awaiting a response from\nthe other TRAINER…"); // unused
 ALIGNED(4) const u8 sText_NotRegisteredAMonForTrade[] = _("You have not registered a Pokémon\nfor trading.\p"); // unused
 ALIGNED(4) const u8 sText_DontHaveTypeTrainerWants[] = _("You don't have a {STR_VAR_2}-type\nPokémon that {STR_VAR_1} wants.\p");
@@ -530,7 +530,7 @@ ALIGNED(4) const u8 sText_Chat2[] = _("CHAT");
 ALIGNED(4) const u8 sText_Greetings[] = _("GREETINGS");
 ALIGNED(4) const u8 sText_Exit[] = _("EXIT");
 ALIGNED(4) const u8 sText_Exit2[] = _("EXIT");
-ALIGNED(4) const u8 sText_Info[] = _("INFO");
+ALIGNED(4) const u8 sText_Info[] = _("+INFO");
 ALIGNED(4) const u8 sText_NameWantedOfferLv[] = _("NAME{CLEAR_TO 0x3C}WANTED{CLEAR_TO 0x6E}OFFER{CLEAR_TO 0xC6}LV.");
 ALIGNED(4) const u8 sText_SingleBattle[] = _("SINGLE BATTLE");
 ALIGNED(4) const u8 sText_DoubleBattle[] = _("DOUBLE BATTLE");

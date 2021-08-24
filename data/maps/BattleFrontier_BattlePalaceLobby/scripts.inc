@@ -605,7 +605,7 @@ BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
 	.string "these Battle Point(s).$"
 
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
-	.string "Would you like to record your latest\n"
+	.string "Voldries to record your latest\n"
 	.string "BATTLE PALACE match on your\l"
 	.string "FRONTIER PASS?$"
 

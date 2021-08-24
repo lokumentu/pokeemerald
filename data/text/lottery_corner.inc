@@ -5,7 +5,7 @@ LilycoveCity_DepartmentStore_1F_Text_LotteryCornerDrawTicket:
 	.string "If the LOTO TICKET's number matches\n"
 	.string "the ID number of any of your Pokémon,\l"
 	.string "you will receive a fabulous gift.\p"
-	.string "Would you like to draw a Pokémon\n"
+	.string "Voldries to draw a Pokémon\n"
 	.string "LOTO TICKET?$"
 
 LilycoveCity_DepartmentStore_1F_Text_ComeBackTomorrow:

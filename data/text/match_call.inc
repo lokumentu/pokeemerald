@@ -378,7 +378,7 @@ MatchCall_SameRouteBattleRequestText2::
 	.string "It's {STR_VAR_1}.\p"
 	.string "Oh? You happen to be around\n"
 	.string "{STR_VAR_2} right now?\p"
-	.string "Would you like to battle now?\n"
+	.string "Voldries to battle now?\n"
 	.string "I'll wait for you! See you!$"
 
 MatchCall_SameRouteBattleRequestText3::
@@ -436,7 +436,7 @@ MatchCall_SameRouteBattleRequestText8::
 	.string "This is {STR_VAR_1} speaking.\p"
 	.string "I hope you're doing well.\n"
 	.string "Oh, you're near {STR_VAR_2}.\p"
-	.string "Would you like to have a battle\n"
+	.string "Voldries to have a battle\n"
 	.string "with me, then?\p"
 	.string "I'll wait for you.\n"
 	.string "See you soon!$"
@@ -510,7 +510,7 @@ MatchCall_DifferentRouteBattleRequestText1::
 MatchCall_DifferentRouteBattleRequestText2::
 	.string "Hello, {PLAYER}!\n"
 	.string "It's {STR_VAR_1}.\p"
-	.string "Would you like to have a battle\n"
+	.string "Voldries to have a battle\n"
 	.string "with me again?\p"
 	.string "You can find me around\n"
 	.string "{STR_VAR_2}. I'll be waiting!$"

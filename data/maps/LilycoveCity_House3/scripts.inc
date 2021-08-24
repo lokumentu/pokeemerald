@@ -106,7 +106,7 @@ LilycoveCity_House3_Text_LearnFromMasterOfPokeblocks:
 	.string "Me? I'm a master of {POKEBLOCK}S.\p"
 	.string "If I get serious just a little, why,\n"
 	.string "I can concoct great {POKEBLOCK}S.\p"
-	.string "Would you like to learn from me,\n"
+	.string "Voldries to learn from me,\n"
 	.string "a master of {POKEBLOCK}S?$"
 
 LilycoveCity_House3_Text_OhAreYouSure:
