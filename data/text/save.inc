@@ -19,7 +19,7 @@ gText_DifferentSaveFile::
 	.string "diferent.\p"
 	.string "Si guardes ara, l'aventura de\n"
 	.string "l'altre fitxer, incloent objectes\l"
-	.string "i POKéMON, es perdrà completament.\p"
+	.string "i Pokémon, es perdrà completament.\p"
 	.string "Segur que vols guardar ara i\n"
 	.string "sobreescriure l'altre fitxer?$"
 
