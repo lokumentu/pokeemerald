@@ -497,7 +497,7 @@ const u8 gText_Power[] = _("POWER");
 const u8 gText_Accuracy2[] = _("ACCURACY");
 const u8 gText_Appeal[] = _("APPEAL");
 const u8 gText_Jam[] = _("JAM");
-const u8 gText_Status[] = _("STATUS");
+const u8 gText_Status[] = _("ESTAT");
 const u8 gText_ExpPoints[] = _("EXP. POINTS");
 const u8 gText_NextLv[] = _("NEXT LV.");
 const u8 gText_RibbonsVar1[] = _("RIBBONS: {STR_VAR_1}");
@@ -1553,7 +1553,7 @@ const u8 gText_TakeGoodCareOfX[] = _("Take good care of {STR_VAR_3}!");
 // Easy chat group names
 const u8 gEasyChatGroupName_Pokemon[] = _("POKéMON");
 const u8 gEasyChatGroupName_Trainer[] = _("TRAINER");
-const u8 gEasyChatGroupName_Status[] = _("STATUS");
+const u8 gEasyChatGroupName_Status[] = _("ESTAT");
 const u8 gEasyChatGroupName_Battle[] = _("BATTLE");
 const u8 gEasyChatGroupName_Greetings[] = _("GREETINGS");
 const u8 gEasyChatGroupName_People[] = _("PEOPLE");
