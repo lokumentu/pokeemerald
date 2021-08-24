@@ -402,7 +402,7 @@ CableClub_Text_UnionRoomInfo:
 	.string "You may do all sorts of things\n"
 	.string "here, such as exchanging greetings.\p"
 	.string "You may enter two Pokémon up to\n"
-	.string "Lv. 30 for a one-on-one battle.\p"
+	.string "Nv. 30 for a one-on-one battle.\p"
 	.string "You may take part in a chat with\n"
 	.string "two to five people.\p"
 	.string "Or, you may register a Pokémon for\n"
