@@ -2989,7 +2989,7 @@ static void InterviewBefore_FanClubSpecial(void)
         InitializeEasyChatWordArray(gSaveBlock1Ptr->tvShows[sCurTVShowSlot].fanClubSpecial.words, 1);
 }
 
-static bool8 IsPartyMonNicknamedOrNotEnglish(u8 monIdx)
+static bool8 IsPartyMonNicknamedOrNotCatalan(u8 monIdx)
 {
     struct Pokemon *pokemon;
     u8 language;
@@ -3003,9 +3003,9 @@ static bool8 IsPartyMonNicknamedOrNotEnglish(u8 monIdx)
     return TRUE;
 }
 
-bool8 IsLeadMonNicknamedOrNotEnglish(void)
+bool8 IsLeadMonNicknamedOrNotCatalan(void)
 {
-    return IsPartyMonNicknamedOrNotEnglish(GetLeadMonIndex());
+    return IsPartyMonNicknamedOrNotCatalan(GetLeadMonIndex());
 }
 
 static void DeleteTVShowInArrayByIdx(TVShow *shows, u8 idx)

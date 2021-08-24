@@ -645,7 +645,7 @@ static void Task_ValidateMixingGameLanguage(u8 taskId)
         if (gSpecialVar_Result == LINKUP_SUCCESS)
         {
             bool32 mixingForeignGames = FALSE;
-            bool32 isEnglishRSLinked = FALSE;
+            bool32 isCatalanRSLinked = FALSE;
             bool32 isJapaneseEmeraldLinked = FALSE;
 
             playerCount = GetLinkPlayerCount();
@@ -663,7 +663,7 @@ static void Task_ValidateMixingGameLanguage(u8 taskId)
                     }
                     else
                     {
-                        isEnglishRSLinked = TRUE;
+                        isCatalanRSLinked = TRUE;
                     }
                 }
                 else if (version == VERSION_EMERALD)
@@ -675,7 +675,7 @@ static void Task_ValidateMixingGameLanguage(u8 taskId)
                 }
             }
 
-            if (isEnglishRSLinked && isJapaneseEmeraldLinked)
+            if (isCatalanRSLinked && isJapaneseEmeraldLinked)
             {
                 mixingForeignGames = TRUE;
             }

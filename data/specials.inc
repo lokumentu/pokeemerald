@@ -80,7 +80,7 @@ gSpecials::
 	def_special GetSelectedTVShow
 	def_special InterviewBefore
 	def_special InterviewAfter
-	def_special IsLeadMonNicknamedOrNotEnglish
+	def_special IsLeadMonNicknamedOrNotCatalan
 	def_special SetContestCategoryStringVarForInterview
 	def_special GetNextActiveShowIfMassOutbreak
 	def_special IsTVShowAlreadyInQueue

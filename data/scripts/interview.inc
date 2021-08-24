@@ -106,7 +106,7 @@ SlateportCity_OceanicMuseum_1F_EventScript_AlreadyInterviewed::
 SlateportCity_PokemonFanClub_EventScript_Reporter::
 	lock
 	faceplayer
-	specialvar VAR_RESULT, IsLeadMonNicknamedOrNotEnglish
+	specialvar VAR_RESULT, IsLeadMonNicknamedOrNotCatalan
 	compare VAR_RESULT, FALSE
 	goto_if_eq SlateportCity_PokemonFanClub_EventScript_ReporterNoNickname
 	setvar VAR_0x8005, TVSHOW_PKMN_FAN_CLUB_OPINIONS

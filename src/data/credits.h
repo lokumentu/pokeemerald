@@ -193,7 +193,7 @@ static const u8 sCreditsText_RetsujiNomoto[]                  = _("Retsuji Nomot
 static const u8 sCreditsText_AzusaTajima[]                    = _("Azusa Tajima");
 static const u8 sCreditsText_ShusakuEgami[]                   = _("Shusaku Egami");
 static const u8 sCreditsText_PackageAndManual[]               = _("Package & Manual Illustration");
-static const u8 sCreditsText_EnglishVersion[]                 = _("English Version Coordinators");
+static const u8 sCreditsText_CatalanVersion[]                 = _("Catalan Version Coordinators");
 static const u8 sCreditsText_Translator[]                     = _("Translator");
 static const u8 sCreditsText_TextEditor[]                     = _("Text Editor");
 static const u8 sCreditsText_NCLCoordinator[]                 = _("NCL Coordinator");
@@ -352,7 +352,7 @@ static const struct CreditsEntry sCreditsEntry_RetsujiNomoto[]                  
 static const struct CreditsEntry sCreditsEntry_AzusaTajima[]                    = {11, FALSE, sCreditsText_AzusaTajima};
 static const struct CreditsEntry sCreditsEntry_ShusakuEgami[]                   = {11, FALSE, sCreditsText_ShusakuEgami};
 static const struct CreditsEntry sCreditsEntry_PackageAndManual[]               = { 0,  TRUE, sCreditsText_PackageAndManual};
-static const struct CreditsEntry sCreditsEntry_EnglishVersion[]                 = { 0,  TRUE, sCreditsText_EnglishVersion};
+static const struct CreditsEntry sCreditsEntry_CatalanVersion[]                 = { 0,  TRUE, sCreditsText_CatalanVersion};
 static const struct CreditsEntry sCreditsEntry_Translator[]                     = { 0,  TRUE, sCreditsText_Translator};
 static const struct CreditsEntry sCreditsEntry_TextEditor[]                     = { 0,  TRUE, sCreditsText_TextEditor};
 static const struct CreditsEntry sCreditsEntry_NCLCoordinator[]                 = { 0,  TRUE, sCreditsText_NCLCoordinator};
@@ -673,7 +673,7 @@ static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][EN
     },
     [PAGE_CATALAN_VERSION] = {
         _,
-        sCreditsEntry_EnglishVersion,
+        sCreditsEntry_CatalanVersion,
         sCreditsEntry_HiroNakamura,
         sCreditsEntry_SethMcMahill,
         _,

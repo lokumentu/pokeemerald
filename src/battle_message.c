@@ -3000,7 +3000,7 @@ static void ChooseMoveUsedParticle(u8* textBuff)
 // It resulted in the translation "<NAME>'s <ATTACK>!".
 //
 // sText_ExclamationMark2 was "を つかった！". This resulted in the translation
-// "<NAME> used <ATTACK>!", which was used for all attacks in English.
+// "<NAME> used <ATTACK>!", which was used for all attacks in Catalan.
 //
 // sText_ExclamationMark3 was "した！". This was used for those moves whose
 // names were verbs, such as Recover, and resulted in translations like "<NAME>
