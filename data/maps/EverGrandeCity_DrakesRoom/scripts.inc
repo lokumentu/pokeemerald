@@ -88,6 +88,6 @@ EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
 	.string "TRAINERS and learn good from wrong.\p"
 	.string "They touch the good hearts of\n"
 	.string "TRAINERS and grow strong.\p"
-	.string "Go! Go onwards!\n"
+	.string "Endavant! Go onwards!\n"
 	.string "The CHAMPION is waiting!$"
 

@@ -447,7 +447,7 @@ const u8 gTypeEffectiveness[372] =
 const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
 {
     _("NORMAL"),
-    _("FIGHT"),
+    _("LLUITA"),
     _("FLYING"),
     _("POISON"),
     _("GROUND"),

@@ -338,7 +338,7 @@ TrainerHill_Entrance_Text_TimeProgessGetSetGo:
 	.string "Best of luck!\p"
 	.string "On your marks…\p"
 	.string "Get set…\p"
-	.string "Go!$"
+	.string "Endavant!$"
 
 TrainerHill_Entrance_Text_PleaseVisitUsAgain:
 	.string "Please do visit us again!$"
